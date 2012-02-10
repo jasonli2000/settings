@@ -1,0 +1,42 @@
+syntax on
+set autoindent
+set tabstop=2
+set shiftwidth=2
+set expandtab
+set incsearch
+set hlsearch
+set matchpairs+=<:>
+set showmatch
+set laststatus=2
+set guifont=Courier\ 10\ Pitch\ 10
+set number
+set visualbell t_vb=
+set nowrap
+set efm+=%EError\ \#%n\ %f\ (%l)\ %m
+set spellfile=~/.vim/spell/spellfile.add
+set spelllang=en_us
+set nospell
+"set the color schema
+color koehler
+
+highlight ExtraWhitespace ctermbg=red guibg=red
+match ExtraWhitespace /\s\+$/
+
+" Turn on syntax highlighting for EWD, mumps
+augroup filetypedetect
+au! BufRead,BufNewFile *.ewd	setfiletype html
+au! BufRead,BufNewFile *.m  setfiletype mumps
+au! BufRead,BufNewFile *.ro setfiletype mumps
+augroup END
+" vim -b : edit binary using xxd-format!
+augroup Binary
+  au!
+  au BufReadPre  *.reg let &bin=1
+  au BufReadPost *.reg if &bin | %!xxd
+  au BufReadPost *.reg set ft=xxd | endif
+  au BufWritePre *.reg if &bin | %!xxd -r
+  au BufWritePre *.reg endif
+  au BufWritePost *.reg if &bin | %!xxd
+  au BufWritePost *.reg set nomod | endif
+augroup END
+
