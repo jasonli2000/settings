@@ -1,0 +1,97 @@
+set nocompatible
+source $VIMRUNTIME/vimrc_example.vim
+source $VIMRUNTIME/mswin.vim
+behave mswin
+
+set diffexpr=MyDiff()
+function MyDiff()
+  let opt = '-a --binary '
+  if &diffopt =~ 'icase' | let opt = opt . '-i ' | endif
+  if &diffopt =~ 'iwhite' | let opt = opt . '-b ' | endif
+  let arg1 = v:fname_in
+  if arg1 =~ ' ' | let arg1 = '"' . arg1 . '"' | endif
+  let arg2 = v:fname_new
+  if arg2 =~ ' ' | let arg2 = '"' . arg2 . '"' | endif
+  let arg3 = v:fname_out
+  if arg3 =~ ' ' | let arg3 = '"' . arg3 . '"' | endif
+  let eq = ''
+  if $VIMRUNTIME =~ ' '
+    if &sh =~ '\<cmd'
+      let cmd = '""' . $VIMRUNTIME . '\diff"'
+      let eq = '"'
+    else
+      let cmd = substitute($VIMRUNTIME, ' ', '" ', '') . '\diff"'
+    endif
+  else
+    let cmd = $VIMRUNTIME . '\diff'
+  endif
+  silent execute '!' . cmd . ' ' . opt . arg1 . ' ' . arg2 . ' > ' . arg3 . eq
+endfunction
+" Autoindent
+"set ai
+" Incremental search
+set incsearch
+" Don't highlight results of search
+set nohlsearch
+" Rule
+set ruler
+" Ignore case when searching
+set ignorecase
+set expandtab
+"set smarttab
+set nomodeline
+
+"set the tab and shift width
+set tabstop=2
+set softtabstop=2
+set shiftwidth=2
+
+"set the color schema
+color koehler
+"set the gui fonts
+set guifont=Courier_New:h10:cANSI
+"set the menu and toolbar
+set guioptions-=m
+set guioptions-=T
+"related to vim session
+set sessionoptions+=resize,winpos
+
+" Turn on Syntax Highlighting
+syntax on
+
+" Turn on syntax highlighting for EWD, mumps
+augroup filetypedetect
+au! BufRead,BufNewFile *.ewd	setfiletype html
+au! BufRead,BufNewFile *.m  setfiletype mumps
+au! BufRead,BufNewFile *.ro setfiletype mumps
+augroup END
+
+" Open mumps files (only if filetype is mumps)
+" au filetype mumps nmap gf :vsp %:p:h/<cfile><CR>
+au filetype mumps noremap gf F^bywf^w<C-W>fgg/^<C-R>"<CR>           
+au filetype mumps set suffixesadd=.m                               " Routine names end with .m 
+au filetype mumps set includeexpr=substitute(v:fname,'\%','_','g') " Translate % to _
+" Remove comma as a valid file name b/c in includes D ^XUP,PSS^DEE as one.
+au filetype mumps set isfname=@,48-57,/,.,-,_,+,#,$,%,~,=
+
+" Omni complete
+autocmd FileType python set omnifunc=pythoncomplete#Complete
+autocmd FileType javascript set omnifunc=javascriptcomplete#CompleteJS
+autocmd FileType html set omnifunc=htmlcomplete#CompleteTags
+autocmd FileType css set omnifunc=csscomplete#CompleteCSS
+
+" Make programs
+au filetype python setlocal mp=python3\ %
+
+" Smart Indentation
+autocmd BufRead *.py set smartindent cinwords=if,elif,else,for,while,try,except,finally,def,class  
+
+" Remember where I am in a file when I open it again
+set viminfo='100  " for the last 100 files
+"autocmd VIMEnter * :source $HOME\vim\Session.vim
+"autocmd VIMLeave * :mksession ! $HOME\vim\Session.vim 
+
+
+
+
+
