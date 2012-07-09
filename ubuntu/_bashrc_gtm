@@ -109,9 +109,11 @@ alias gtm="${gtm_dist}/mumps -direct"
 alias mupip="${gtm_dist}/mupip"
 alias GDE="${gtm_dist}/mumps -r GDE"
 alias LKE="${gtm_dist}/mumps -r LKE"
-alias rundown='/opt/gtm/mupip rundown -r "*"'
+alias rundown='${gtm_dist}/mupip rundown -r "*"'
 #setting related to the IBUS
 export GTK_IM_MODULE=ibus
 export XMODIFIERS=@im=ibus
 export QT_IM_MODULE=ibus
 
+# Pernonal path and configuration
+export PATH=${PATH}:${HOME}/bin/
