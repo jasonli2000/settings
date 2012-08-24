@@ -1,0 +1,5 @@
+alias gtm="${gtm_dist}/mumps -direct"
+alias mupip="${gtm_dist}/mupip"
+alias GDE="${gtm_dist}/mumps -r GDE"
+alias LKE="${gtm_dist}/mumps -r LKE"
+alias rundown='${gtm_dist}/mupip rundown -r "*"'
