@@ -100,10 +100,11 @@ fi
 
 # GT.M Configuration
 #export gtm_dist="/opt/gtm"
-source /opt/gtm/gtmprofile
-export vistadir="/home/softhat/VistA/"
-export gtmgbldir="${vistadir}/database"
-export gtmroutines="${vistadir}/database/routines ${gtm_dist} /home/softhat/src/M-Tools/CodeFormatter"
+export gtm_install_dir="/opt/gtm/v5500/" # replace with the right path
+source ${gtm_install_dir}/gtmprofile
+export vistadir="{HOME}/VistA/" # replace with the right dir
+export gtmgbldir="${vistadir}/database" # replace with the right dir
+export gtmroutines="${vistadir}/database/routines ${gtm_dist}" # replace with the right path
 export EDITOR=`which gvim`
 alias gtm="${gtm_dist}/mumps -direct"
 alias mupip="${gtm_dist}/mupip"
