@@ -1,0 +1,10 @@
+#! /bin/sh
+# relate the gtm env setups
+source /opt/gtm/v5500/gtmprofile
+export vistadir="${HOME}/VistA-FOIA/latest/databases"
+export gtmgbldir="${vistadir}/globals/VistA-FOIA.gld"
+export gtmroutines="${vistadir}/o(${vistadir}/routines) ${gtm_dist}"
+export EDITOR=`which vim`
+if [ -f ~/.bash_gtm_aliases ]; then
+  . ~/.bash_gtm_aliases
+fi

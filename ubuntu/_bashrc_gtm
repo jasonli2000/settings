@@ -102,15 +102,13 @@ fi
 
 # GT.M Configuration
 #export gtm_dist="/opt/gtm"
-export gtm_install_dir="/opt/gtm/v5500/" # replace with the right path
-source ${gtm_install_dir}/gtmprofile
-export vistadir="{HOME}/VistA" # replace with the right dir
-export gtmgbldir="${vistadir}/database" # replace with the right dir
-export gtmroutines="${vistadir}/database/routines ${gtm_dist}" # replace with the right path
+if [ -f ~/.gtm_env ]; then
+  ./.gtm_env
+fi
 if [ -f ~/.bash_gtm_aliases ]; then
   ./bash_gtm_aliases
 fi
-export EDITOR=`which gvim`
+export EDITOR=`which vim`
 #setting related to the IBUS
 export GTK_IM_MODULE=ibus
 export XMODIFIERS=@im=ibus
