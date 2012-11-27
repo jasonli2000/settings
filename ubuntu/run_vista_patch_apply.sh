@@ -23,14 +23,14 @@ if [ ! -e $LOG_DIR ]; then
   mkdir $LOG_DIR
 fi
 
-if [ $# -gt 1 ]; then
+if [ $# -eq 1 ]; then
   python $SCRIPT_NAME -p $PATCH_DIR -l $LOG_DIR -S $SYSTEM -i
 else
   python $SCRIPT_NAME -p $PATCH_DIR -l $LOG_DIR -S $SYSTEM
 fi
 
 rcode=$?
-if [ $rcode -eq 0 ]; then
+if [ $rcode -ge 0 ]; then
   echo "###SUCCESS###"
 else
   echo "###FAILED###"
