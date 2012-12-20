@@ -1,0 +1,10 @@
+S DUZ=1 D ^XUP
+
+Selection option HL7 Main Menu Option:
+
+Go to Filer and Link Management Options:
+
+and restart TCP link Manager. and RA to restart all link and filers
+
+in the SM (Sysmte monitor, make sure incoming filer and outgoing filer are all running)
+

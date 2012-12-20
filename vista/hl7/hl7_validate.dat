@@ -1,0 +1,3692 @@
+
+             ** HL7 INTERFACE DEBUGGER **
+__________________________________________________________________________
+Event Driver: RA REG
+
+Sending Application: 
+Version: 2.1   Message Type(770.3): ORM   Event Type: O01
+
+Event Driver Error Summary:
+
+1. Missing Required Sending Application.
+          ***************************************
+          For Subscriber: RA SEND ORM
+
+          Receiving Application: RA-CLIENT-IMG
+          Message Type (770.11):    Event Type: O01
+
+          No Subscriber Errors Found.
+__________________________________________________________________________
+Event Driver: RA CANCEL
+
+Sending Application: 
+Version: 2.1   Message Type(770.3): ORM   Event Type: O01
+
+Event Driver Error Summary:
+
+1. Missing Required Sending Application.
+          ***************************************
+          For Subscriber: RA SEND ORM
+
+          Receiving Application: RA-CLIENT-IMG
+          Message Type (770.11):    Event Type: O01
+
+          No Subscriber Errors Found.
+__________________________________________________________________________
+Event Driver: RA RPT
+
+Sending Application: 
+Version: 2.1   Message Type(770.3): ORU   Event Type: R01
+
+Event Driver Error Summary:
+
+1. Missing Required Sending Application.
+          ***************************************
+          For Subscriber: RA SEND ORU
+
+          Receiving Application: RA-CLIENT-IMG
+          Message Type (770.11):    Event Type: R01
+
+          No Subscriber Errors Found.
+__________________________________________________________________________
+Event Driver: SCDX AMBCARE SEND SERVER FOR ADT-Z00
+
+Sending Application: 
+Version:    Message Type(770.3):    Event Type: 
+
+Event Driver Error Summary:
+
+1. Missing Required Sending Application.
+2. Missing required Message Type.
+3. Broken pointer to Event Type (file 779.001).
+          ***************************************
+          For Subscriber: SCDX AMBCARE SEND CLIENT FOR ADT-Z00
+
+          Receiving Application: 
+          Message Type (770.11):    Event Type: 
+
+          1. Missing Required Receiving Application.
+__________________________________________________________________________
+Event Driver: DGQE HL7 A08 VIC SERVER
+
+Sending Application: DGQE VIC EVENTS
+Version: 2.2   Message Type(770.3): ADT   Event Type: A08
+
+Event Driver Error Summary:
+
+No Event Driver Errors Found.
+          ***************************************
+          For Subscriber: DGQE VIC A08 CLIENT
+
+          Receiving Application: DGQE DATACARD
+          Message Type (770.11): ADT   Event Type: A08
+
+          1. Message Type must be an appropriate response/acknowledgement.
+__________________________________________________________________________
+Event Driver: LREPI
+
+Sending Application: EPI-LAB
+Version: 2.2   Message Type(770.3): ORU   Event Type: R01
+
+Event Driver Error Summary:
+
+No Event Driver Errors Found.
+          ***************************************
+          For Subscriber: LREPI CLIENT
+
+          Receiving Application: EPI-LAB
+          Message Type (770.11): ORU   Event Type: R01
+
+          1. Message Type must be an appropriate response/acknowledgement.
+__________________________________________________________________________
+Event Driver: RA EXAMINED
+
+Sending Application: 
+Version: 2.1   Message Type(770.3): ORM   Event Type: O01
+
+Event Driver Error Summary:
+
+1. Missing Required Sending Application.
+          ***************************************
+          For Subscriber: RA SEND ORM
+
+          Receiving Application: RA-CLIENT-IMG
+          Message Type (770.11):    Event Type: O01
+
+          No Subscriber Errors Found.
+__________________________________________________________________________
+Event Driver: PSD A01 SERVER
+
+Sending Application: PSD-CS
+Version: 2.1   Message Type(770.3): ADT   Event Type: A01
+
+Event Driver Error Summary:
+
+No Event Driver Errors Found.
+          ***************************************
+          For Subscriber: PSD A01 CLIENT
+
+          Receiving Application: PSD-NDES
+          Message Type (770.11): ADT   Event Type: A01
+
+          1. Message Type must be an appropriate response/acknowledgement.
+__________________________________________________________________________
+Event Driver: PSD A02 SERVER
+
+Sending Application: PSD-CS
+Version: 2.1   Message Type(770.3): ADT   Event Type: A02
+
+Event Driver Error Summary:
+
+No Event Driver Errors Found.
+          ***************************************
+          For Subscriber: PSD A02 CLIENT
+
+          Receiving Application: PSD-NDES
+          Message Type (770.11): ADT   Event Type: A02
+
+          1. Message Type must be an appropriate response/acknowledgement.
+__________________________________________________________________________
+Event Driver: PSD A03 SERVER
+
+Sending Application: PSD-CS
+Version: 2.1   Message Type(770.3): ADT   Event Type: A03
+
+Event Driver Error Summary:
+
+No Event Driver Errors Found.
+          ***************************************
+          For Subscriber: PSD A03 CLIENT
+
+          Receiving Application: PSD-NDES
+          Message Type (770.11): ADT   Event Type: A03
+
+          1. Message Type must be an appropriate response/acknowledgement.
+__________________________________________________________________________
+Event Driver: PSD DFT SERVER
+
+Sending Application: PSD-NDES
+Version: 2.1   Message Type(770.3): DFT   Event Type: P03
+
+Event Driver Error Summary:
+
+No Event Driver Errors Found.
+          ***************************************
+          For Subscriber: PSD DFT CLIENT
+
+          Receiving Application: PSD-CS
+          Message Type (770.11): ACK   Event Type: P03
+
+          No Subscriber Errors Found.
+__________________________________________________________________________
+Event Driver: VAFC ADT-A04 SERVER
+
+Sending Application: VAFC PIMS
+Version: 2.3   Message Type(770.3): ADT   Event Type: A04
+
+Event Driver Error Summary:
+
+No Event Driver Errors Found.
+          ***************************************
+          For Subscriber: RG ADT-A04 TRIGGER
+
+          Receiving Application: RG ADT
+          Message Type (770.11): ACK   Event Type: A04
+
+          No Subscriber Errors Found.
+__________________________________________________________________________
+Event Driver: VAFC ADT-A08 SERVER
+
+Sending Application: VAFC PIMS
+Version: 2.3   Message Type(770.3): ADT   Event Type: A08
+
+Event Driver Error Summary:
+
+No Event Driver Errors Found.
+          ***************************************
+          For Subscriber: RG ADT-A08 TRIGGER
+
+          Receiving Application: RG ADT
+          Message Type (770.11): ACK   Event Type: A08
+
+          No Subscriber Errors Found.
+__________________________________________________________________________
+Event Driver: VAFH A01
+
+Sending Application: VAFH PIMS
+Version: 2.2   Message Type(770.3): ADT   Event Type: A01
+
+Event Driver Error Summary:
+
+No Event Driver Errors Found.
+          ***************************************
+          For Subscriber: VAFH CLIENT A01
+
+          Receiving Application: VAFHL7 TEMPLATE
+          Message Type (770.11): ADT   Event Type: A01
+
+          1. Message Type must be an appropriate response/acknowledgement.
+__________________________________________________________________________
+Event Driver: VAFH A02
+
+Sending Application: VAFH PIMS
+Version: 2.2   Message Type(770.3): ADT   Event Type: A02
+
+Event Driver Error Summary:
+
+No Event Driver Errors Found.
+          ***************************************
+          For Subscriber: VAFH CLIENT A02
+
+          Receiving Application: VAFHL7 TEMPLATE
+          Message Type (770.11): ADT   Event Type: A02
+
+          1. Message Type must be an appropriate response/acknowledgement.
+__________________________________________________________________________
+Event Driver: VAFH A11
+
+Sending Application: VAFH PIMS
+Version: 2.2   Message Type(770.3): ADT   Event Type: A11
+
+Event Driver Error Summary:
+
+No Event Driver Errors Found.
+          ***************************************
+          For Subscriber: VAFH CLIENT A11
+
+          Receiving Application: VAFHL7 TEMPLATE
+          Message Type (770.11): ADT   Event Type: A11
+
+          1. Message Type must be an appropriate response/acknowledgement.
+__________________________________________________________________________
+Event Driver: VAFH A12
+
+Sending Application: VAFH PIMS
+Version: 2.2   Message Type(770.3): ADT   Event Type: A12
+
+Event Driver Error Summary:
+
+No Event Driver Errors Found.
+          ***************************************
+          For Subscriber: VAFH CLIENT A12
+
+          Receiving Application: VAFHL7 TEMPLATE
+          Message Type (770.11): ADT   Event Type: A12
+
+          1. Message Type must be an appropriate response/acknowledgement.
+__________________________________________________________________________
+Event Driver: VAFH A13
+
+Sending Application: VAFH PIMS
+Version: 2.2   Message Type(770.3): ADT   Event Type: A13
+
+Event Driver Error Summary:
+
+No Event Driver Errors Found.
+          ***************************************
+          For Subscriber: VAFH CLIENT A13
+
+          Receiving Application: VAFHL7 TEMPLATE
+          Message Type (770.11): ADT   Event Type: A13
+
+          1. Message Type must be an appropriate response/acknowledgement.
+__________________________________________________________________________
+Event Driver: VAFH A03
+
+Sending Application: VAFH PIMS
+Version: 2.2   Message Type(770.3): ADT   Event Type: A03
+
+Event Driver Error Summary:
+
+No Event Driver Errors Found.
+          ***************************************
+          For Subscriber: VAFH CLIENT A03
+
+          Receiving Application: VAFHL7 TEMPLATE
+          Message Type (770.11): ADT   Event Type: A03
+
+          1. Message Type must be an appropriate response/acknowledgement.
+__________________________________________________________________________
+Event Driver: VAFH A04
+
+Sending Application: VAFH PIMS
+Version: 2.2   Message Type(770.3): ADT   Event Type: A04
+
+Event Driver Error Summary:
+
+No Event Driver Errors Found.
+          ***************************************
+          For Subscriber: VAFH CLIENT A04
+
+          Receiving Application: VAFHL7 TEMPLATE
+          Message Type (770.11): ADT   Event Type: A04
+
+          1. Message Type must be an appropriate response/acknowledgement.
+__________________________________________________________________________
+Event Driver: VAFH A08
+
+Sending Application: VAFH PIMS
+Version: 2.2   Message Type(770.3): ADT   Event Type: A08
+
+Event Driver Error Summary:
+
+No Event Driver Errors Found.
+          ***************************************
+          For Subscriber: VAFH CLIENT A08
+
+          Receiving Application: VAFHL7 TEMPLATE
+          Message Type (770.11): ADT   Event Type: A08
+
+          1. Message Type must be an appropriate response/acknowledgement.
+__________________________________________________________________________
+Event Driver: VAFH A34
+
+Sending Application: VAFH PIMS
+Version: 2.2   Message Type(770.3): ADT   Event Type: A34
+
+Event Driver Error Summary:
+
+No Event Driver Errors Found.
+          ***************************************
+          For Subscriber: VAFH CLIENT A34
+
+          Receiving Application: VAFHL7 TEMPLATE
+          Message Type (770.11): ADT   Event Type: A34
+
+          1. Message Type must be an appropriate response/acknowledgement.
+__________________________________________________________________________
+Event Driver: VAFH A19
+
+Sending Application: VAFH PIMS
+Version: 2.2   Message Type(770.3): QRY   Event Type: A19
+
+Event Driver Error Summary:
+
+No Event Driver Errors Found.
+          ***************************************
+          For Subscriber: VAFH CLIENT A19
+
+          Receiving Application: VAFHL7 TEMPLATE
+          Message Type (770.11): ADR   Event Type: A19
+
+          No Subscriber Errors Found.
+__________________________________________________________________________
+Event Driver: VAFC ADT-A01 SERVER
+
+Sending Application: VAFC PIMS
+Version:    Message Type(770.3): ADT   Event Type: A01
+
+Event Driver Error Summary:
+
+1. Version ID is required.
+__________________________________________________________________________
+Event Driver: VAFC ADT-A02 SERVER
+
+Sending Application: VAFC PIMS
+Version:    Message Type(770.3): ADT   Event Type: A02
+
+Event Driver Error Summary:
+
+1. Version ID is required.
+__________________________________________________________________________
+Event Driver: VAFC ADT-A03 SERVER
+
+Sending Application: VAFC PIMS
+Version:    Message Type(770.3): ADT   Event Type: A03
+
+Event Driver Error Summary:
+
+1. Version ID is required.
+__________________________________________________________________________
+Event Driver: VAFC ADT-A11 SERVER
+
+Sending Application: VAFC PIMS
+Version:    Message Type(770.3): ADT   Event Type: A11
+
+Event Driver Error Summary:
+
+1. Version ID is required.
+__________________________________________________________________________
+Event Driver: VAFC ADT-A12 SERVER
+
+Sending Application: VAFC PIMS
+Version:    Message Type(770.3): ADT   Event Type: A12
+
+Event Driver Error Summary:
+
+1. Version ID is required.
+__________________________________________________________________________
+Event Driver: VAFC ADT-A13 SERVER
+
+Sending Application: VAFC PIMS
+Version:    Message Type(770.3): ADT   Event Type: A13
+
+Event Driver Error Summary:
+
+1. Version ID is required.
+__________________________________________________________________________
+Event Driver: VAFC ADT-A19 SERVER
+
+Sending Application: VAFC PIMS
+Version:    Message Type(770.3): ADT   Event Type: A19
+
+Event Driver Error Summary:
+
+1. Version ID is required.
+__________________________________________________________________________
+Event Driver: VAFC ADT-A08-TSP SERVER
+
+Sending Application: VAFC PIMS
+Version:    Message Type(770.3): ADT   Event Type: A08
+
+Event Driver Error Summary:
+
+1. Version ID is required.
+__________________________________________________________________________
+Event Driver: VAFC ADT-A08-SDAM SERVER
+
+Sending Application: VAFC PIMS
+Version:    Message Type(770.3): ADT   Event Type: A08
+
+Event Driver Error Summary:
+
+1. Version ID is required.
+__________________________________________________________________________
+Event Driver: VAFC ADT-A08-SCHED SERVER
+
+Sending Application: VAFC PIMS
+Version:    Message Type(770.3): ADT   Event Type: A08
+
+Event Driver Error Summary:
+
+1. Version ID is required.
+__________________________________________________________________________
+Event Driver: SR Notification of Appointment Booking
+
+Sending Application: SR AAIS
+Version: 2.1   Message Type(770.3): ZIU   Event Type: S12
+
+Event Driver Error Summary:
+
+No Event Driver Errors Found.
+          ***************************************
+          For Subscriber: SR Receiver of New Appointment Booking
+
+          Receiving Application: SR SURGERY
+          Message Type (770.11): ZIU   Event Type: S12
+
+          1. Message Type must be an appropriate response/acknowledgement.
+__________________________________________________________________________
+Event Driver: SR Notification of Appointment Rescheduling
+
+Sending Application: SR AAIS
+Version: 2.1   Message Type(770.3): ZIU   Event Type: S13
+
+Event Driver Error Summary:
+
+No Event Driver Errors Found.
+          ***************************************
+          For Subscriber: SR Receiver of Appointment Rescheduling
+
+          Receiving Application: SR SURGERY
+          Message Type (770.11): ZIU   Event Type: S13
+
+          1. Message Type must be an appropriate response/acknowledgement.
+__________________________________________________________________________
+Event Driver: SR Notification of Appointment Modification
+
+Sending Application: SR AAIS
+Version: 2.1   Message Type(770.3): ZIU   Event Type: S14
+
+Event Driver Error Summary:
+
+No Event Driver Errors Found.
+          ***************************************
+          For Subscriber: SR Receiver of Appointment Modification
+
+          Receiving Application: SR SURGERY
+          Message Type (770.11): ZIU   Event Type: S14
+
+          1. Message Type must be an appropriate response/acknowledgement.
+__________________________________________________________________________
+Event Driver: SR Notification of Appointment Cancellation
+
+Sending Application: SR AAIS
+Version: 2.1   Message Type(770.3): ZIU   Event Type: S15
+
+Event Driver Error Summary:
+
+No Event Driver Errors Found.
+          ***************************************
+          For Subscriber: SR Receiver of Appointment Cancellation
+
+          Receiving Application: SR SURGERY
+          Message Type (770.11): ZIU   Event Type: S15
+
+          1. Message Type must be an appropriate response/acknowledgement.
+__________________________________________________________________________
+Event Driver: SR Notification of Appointment Deletion
+
+Sending Application: SR AAIS
+Version: 2.1   Message Type(770.3): ZIU   Event Type: S17
+
+Event Driver Error Summary:
+
+No Event Driver Errors Found.
+          ***************************************
+          For Subscriber: SR Receiver of Appointment Deletion
+
+          Receiving Application: SR SURGERY
+          Message Type (770.11): ZIU   Event Type: S17
+
+          1. Message Type must be an appropriate response/acknowledgement.
+__________________________________________________________________________
+Event Driver: SR Unsolicited transmission of VistA Requested Observation
+
+Sending Application: SR AAIS
+Version: 2.1   Message Type(770.3): ORU   Event Type: R01
+
+Event Driver Error Summary:
+
+No Event Driver Errors Found.
+          ***************************************
+          For Subscriber: SR Receiver of Observation Unsolicited
+
+          Receiving Application: SR SURGERY
+          Message Type (770.11): ACK   Event Type: R01
+
+          No Subscriber Errors Found.
+__________________________________________________________________________
+Event Driver: SR Unsolicited transmission of AAIS Requested Observation
+
+Sending Application: SR AAIS
+Version: 2.1   Message Type(770.3): ORU   Event Type: R01
+
+Event Driver Error Summary:
+
+No Event Driver Errors Found.
+          ***************************************
+          For Subscriber: SR Receiver of Unsolicited Requested Observation
+
+          Receiving Application: SR SURGERY
+          Message Type (770.11): ACK   Event Type: R01
+
+          No Subscriber Errors Found.
+__________________________________________________________________________
+Event Driver: SR Query for Scheduling Information
+
+Sending Application: SR AAIS
+Version: 2.1   Message Type(770.3): QRY   Event Type: S25
+
+Event Driver Error Summary:
+
+No Event Driver Errors Found.
+          ***************************************
+          For Subscriber: SR Receiver of Scheduling Query
+
+          Receiving Application: SR SURGERY
+          Message Type (770.11): ZSQ   Event Type: S25
+
+          1. Message Type must be an appropriate response/acknowledgement.
+__________________________________________________________________________
+Event Driver: SR Staff Master File Notification
+
+Sending Application: SR AAIS
+Version: 2.1   Message Type(770.3): MFN   Event Type: M02
+
+Event Driver Error Summary:
+
+No Event Driver Errors Found.
+          ***************************************
+          For Subscriber: SR Receiver of Staff Master File Notification
+
+          Receiving Application: SR SURGERY
+          Message Type (770.11): MFN   Event Type: M02
+
+          1. Message Type must be an appropriate response/acknowledgement.
+__________________________________________________________________________
+Event Driver: SR Other Master File Notification
+
+Sending Application: SR AAIS
+Version: 2.1   Message Type(770.3): MFN   Event Type: M01
+
+Event Driver Error Summary:
+
+No Event Driver Errors Found.
+          ***************************************
+          For Subscriber: SR Receiver of Master File Notification
+
+          Receiving Application: SR SURGERY
+          Message Type (770.11): MFN   Event Type: M01
+
+          1. Message Type must be an appropriate response/acknowledgement.
+__________________________________________________________________________
+Event Driver: LRNCH
+
+Sending Application: NCH-LAB
+Version: 2.2   Message Type(770.3): ORU   Event Type: R01
+
+Event Driver Error Summary:
+
+No Event Driver Errors Found.
+__________________________________________________________________________
+Event Driver: YS GAF
+
+Sending Application: YS GAF
+Version: 2.2   Message Type(770.3): ACK   Event Type: A08
+
+Event Driver Error Summary:
+
+1. For Event Driver-Message Type cannot be an acknowledgement.
+          ***************************************
+          For Subscriber: YS GAF A08 CLIENT
+
+          Receiving Application: YS GAF
+          Message Type (770.11): ADT   Event Type: A08
+
+          1. Message Type must be an appropriate response/acknowledgement.
+__________________________________________________________________________
+Event Driver: RA VOICE TCP SERVER RPT
+
+Sending Application: RA-CLIENT-TCP
+Version: 2.1   Message Type(770.3): ORU   Event Type: R01
+
+Event Driver Error Summary:
+
+No Event Driver Errors Found.
+          ***************************************
+          For Subscriber: RA VOICE TCP REPORT
+
+          Receiving Application: RA-SERVER-IMG
+          Message Type (770.11): ACK   Event Type: R01
+
+          No Subscriber Errors Found.
+__________________________________________________________________________
+Event Driver: PSO HLSERV
+
+Sending Application: 
+Version: 2.1   Message Type(770.3): RDE   Event Type: O01
+
+Event Driver Error Summary:
+
+1. Missing Required Sending Application.
+__________________________________________________________________________
+Event Driver: PSO HLSERVER1
+
+Sending Application: PSO HLSERVER1
+Version: 2.1   Message Type(770.3): RDE   Event Type: O01
+
+Event Driver Error Summary:
+
+No Event Driver Errors Found.
+          ***************************************
+          For Subscriber: PSO HLCLIENT1
+
+          Receiving Application: PSO HLCLIENT1
+          Message Type (770.11): RRE   Event Type: O02
+
+          No Subscriber Errors Found.
+__________________________________________________________________________
+Event Driver: VAFC MFU-TFL SERVER
+
+Sending Application: VAFC PIMS
+Version: 2.3   Message Type(770.3): MFN   Event Type: M05
+
+Event Driver Error Summary:
+
+No Event Driver Errors Found.
+          ***************************************
+          For Subscriber: VAFC MFU-TFL CLIENT
+
+          Receiving Application: VAFC PIMS
+          Message Type (770.11): MFN   Event Type: M05
+
+          1. Message Type must be an appropriate response/acknowledgement.
+__________________________________________________________________________
+Event Driver: VAFC ADT-A28 SERVER
+
+Sending Application: VAFC PIMS
+Version: 2.3   Message Type(770.3): ADT   Event Type: A28
+
+Event Driver Error Summary:
+
+No Event Driver Errors Found.
+No Subscribers Found.
+__________________________________________________________________________
+Event Driver: DGMST A08 SERVER
+
+Sending Application: DGMST HL7 EVENT
+Version: 2.3   Message Type(770.3): ADT   Event Type: A08
+
+Event Driver Error Summary:
+
+No Event Driver Errors Found.
+          ***************************************
+          For Subscriber: DGMST A08 SEND CLIENT
+
+          Receiving Application: 
+          Message Type (770.11): ADT   Event Type: A08
+
+          1. Missing Required Receiving Application.
+          2. Message Type must be an appropriate response/acknowledgement.
+__________________________________________________________________________
+Event Driver: RG PT SUBSCRIPTION REQUEST
+
+Sending Application: RG SUBSCRIPTION
+Version: 2.3   Message Type(770.3): MFN   Event Type: Z15
+
+Event Driver Error Summary:
+
+No Event Driver Errors Found.
+          ***************************************
+          For Subscriber: RG PT SUBSCRIPTION RECEIVER
+
+          Receiving Application: RG SUBSCRIPTION
+          Message Type (770.11): MFN   Event Type: Z15
+
+          1. Message Type must be an appropriate response/acknowledgement.
+__________________________________________________________________________
+Event Driver: MPIF ICN-Q02 SERVER
+
+Sending Application: MPIF-STARTUP
+Version: 2.3   Message Type(770.3): VQQ   Event Type: Q02
+
+Event Driver Error Summary:
+
+No Event Driver Errors Found.
+          ***************************************
+          For Subscriber: MPIF TEST
+
+          Receiving Application: MPIF MPI
+          Message Type (770.11): VQQ   Event Type: Q02
+
+          1. Message Type must be an appropriate response/acknowledgement.
+__________________________________________________________________________
+Event Driver: MPIF CMOR COMPARISON SERVER
+
+Sending Application: MPIF CMOR COMP
+Version: 2.3   Message Type(770.3): ADT   Event Type: A31
+
+Event Driver Error Summary:
+
+No Event Driver Errors Found.
+          ***************************************
+          For Subscriber: MPIF CMOR COMPARISON CLIENT
+
+          Receiving Application: MPIF CMOR RSLT
+          Message Type (770.11): ADT   Event Type: A31
+
+          1. Message Type must be an appropriate response/acknowledgement.
+__________________________________________________________________________
+Event Driver: MPIF CMOR RESULT SERVER
+
+Sending Application: MPIF CMOR RSLT
+Version: 2.3   Message Type(770.3): ADT   Event Type: A31
+
+Event Driver Error Summary:
+
+No Event Driver Errors Found.
+          ***************************************
+          For Subscriber: MPIF CMOR RESULT CLIENT
+
+          Receiving Application: MPIF CMOR RSLT
+          Message Type (770.11): ADT   Event Type: A31
+
+          1. Message Type must be an appropriate response/acknowledgement.
+__________________________________________________________________________
+Event Driver: MPIF CMOR REQUEST
+
+Sending Application: RG CIRN
+Version: 2.3   Message Type(770.3): ADT   Event Type: A31
+
+Event Driver Error Summary:
+
+No Event Driver Errors Found.
+          ***************************************
+          For Subscriber: MPIF CMOR RESPONSE
+
+          Receiving Application: RG CIRN
+          Message Type (770.11): ADT   Event Type: A31
+
+          1. Message Type must be an appropriate response/acknowledgement.
+__________________________________________________________________________
+Event Driver: MPIF A28 REQUEST
+
+Sending Application: MPIF LOC/MIS
+Version: 2.3   Message Type(770.3): ADT   Event Type: A28
+
+Event Driver Error Summary:
+
+No Event Driver Errors Found.
+          ***************************************
+          For Subscriber: MPIF A28 RESPONSE
+
+          Receiving Application: MPIF LOC/MIS
+          Message Type (770.11): ADT   Event Type: A28
+
+          1. Message Type must be an appropriate response/acknowledgement.
+__________________________________________________________________________
+Event Driver: MPIF A29 SERVER
+
+Sending Application: MPIF A29 SERVER
+Version: 2.3   Message Type(770.3): ADT   Event Type: A29
+
+Event Driver Error Summary:
+
+No Event Driver Errors Found.
+          ***************************************
+          For Subscriber: MPIF A29
+
+          Receiving Application: MPIF MPI
+          Message Type (770.11): ADT   Event Type: A29
+
+          1. Message Type must be an appropriate response/acknowledgement.
+__________________________________________________________________________
+Event Driver: MPIF A30 SERVER
+
+Sending Application: MPIF A30 SERVER
+Version: 2.3   Message Type(770.3): ADT   Event Type: A30
+
+Event Driver Error Summary:
+
+No Event Driver Errors Found.
+          ***************************************
+          For Subscriber: MPIF A30
+
+          Receiving Application: MPIF MPI
+          Message Type (770.11): ADT   Event Type: A30
+
+          1. Message Type must be an appropriate response/acknowledgement.
+__________________________________________________________________________
+Event Driver: SPN-HL7-SERVER
+
+Sending Application: SPN-HL7-APP
+Version: 2.2   Message Type(770.3): ORU   Event Type: R01
+
+Event Driver Error Summary:
+
+No Event Driver Errors Found.
+          ***************************************
+          For Subscriber: SPN-HL7-CLIENT
+
+          Receiving Application: SPN-HL7-APP
+          Message Type (770.11): ORU   Event Type: R01
+
+          1. Message Type must be an appropriate response/acknowledgement.
+__________________________________________________________________________
+Event Driver: PCMM SEND SERVER FOR ADT-A08
+
+Sending Application: PCMM-515
+Version: 2.4   Message Type(770.3): ADT   Event Type: A08
+
+Event Driver Error Summary:
+
+No Event Driver Errors Found.
+          ***************************************
+          For Subscriber: PCMM SEND CLIENT FOR ADT-A08
+
+          Receiving Application: 
+          Message Type (770.11): ADT   Event Type: A08
+
+          1. Missing Required Receiving Application.
+          2. Message Type must be an appropriate response/acknowledgement.
+__________________________________________________________________________
+Event Driver: RA PSCRIBE TCP SERVER RPT
+
+Sending Application: RA-PSCRIBE-TCP
+Version: 2.3   Message Type(770.3): ORU   Event Type: R01
+
+Event Driver Error Summary:
+
+No Event Driver Errors Found.
+          ***************************************
+          For Subscriber: RA PSCRIBE TCP REPORT
+
+          Receiving Application: RA-VOICE-SERVER
+          Message Type (770.11): ACK   Event Type: R01
+
+          No Subscriber Errors Found.
+__________________________________________________________________________
+Event Driver: RA TALKLINK TCP SERVER RPT
+
+Sending Application: RA-TALKLINK-TCP
+Version: 2.3   Message Type(770.3): ORU   Event Type: R01
+
+Event Driver Error Summary:
+
+No Event Driver Errors Found.
+          ***************************************
+          For Subscriber: RA TALKLINK TCP REPORT
+
+          Receiving Application: RA-VOICE-SERVER
+          Message Type (770.11): ACK   Event Type: R01
+
+          No Subscriber Errors Found.
+__________________________________________________________________________
+Event Driver: RA RPT 2.3
+
+Sending Application: RA-VOICE-SERVER
+Version: 2.3   Message Type(770.3): ORU   Event Type: R01
+
+Event Driver Error Summary:
+
+No Event Driver Errors Found.
+No Subscribers Found.
+__________________________________________________________________________
+Event Driver: RA CANCEL 2.3
+
+Sending Application: RA-VOICE-SERVER
+Version: 2.3   Message Type(770.3): ORM   Event Type: O01
+
+Event Driver Error Summary:
+
+No Event Driver Errors Found.
+No Subscribers Found.
+__________________________________________________________________________
+Event Driver: RA REG 2.3
+
+Sending Application: RA-VOICE-SERVER
+Version: 2.3   Message Type(770.3): ORM   Event Type: O01
+
+Event Driver Error Summary:
+
+No Event Driver Errors Found.
+No Subscribers Found.
+__________________________________________________________________________
+Event Driver: RA EXAMINED 2.3
+
+Sending Application: RA-VOICE-SERVER
+Version: 2.3   Message Type(770.3): ORM   Event Type: O01
+
+Event Driver Error Summary:
+
+No Event Driver Errors Found.
+No Subscribers Found.
+__________________________________________________________________________
+Event Driver: LA7D CARELIFE SERVER
+
+Sending Application: DHCP CARELIFE
+Version: 2.3   Message Type(770.3): ORU   Event Type: R01
+
+Event Driver Error Summary:
+
+No Event Driver Errors Found.
+          ***************************************
+          For Subscriber: LA7D CARELIFE RESULTS
+
+          Receiving Application: MRTS CARELIFE
+          Message Type (770.11): ORU   Event Type: R01
+
+          1. Message Type must be an appropriate response/acknowledgement.
+__________________________________________________________________________
+Event Driver: MPIF CMOR APPROVE/DISAPPROVE
+
+Sending Application: MPIF CMOR CHNG
+Version: 2.3   Message Type(770.3): ADT   Event Type: A31
+
+Event Driver Error Summary:
+
+No Event Driver Errors Found.
+          ***************************************
+          For Subscriber: MPIF CMOR APP/DIS
+
+          Receiving Application: MPIF CMOR CHNG
+          Message Type (770.11):    Event Type: A31
+
+          No Subscriber Errors Found.
+__________________________________________________________________________
+Event Driver: RG ADT-A01 SERVER
+
+Sending Application: RG CIRN ADT
+Version: 2.3   Message Type(770.3): ADT   Event Type: A01
+
+Event Driver Error Summary:
+
+No Event Driver Errors Found.
+          ***************************************
+          For Subscriber: RG ADT-A01 CLIENT
+
+          Receiving Application: RG CIRN ADT
+          Message Type (770.11): ACK   Event Type: A01
+
+          No Subscriber Errors Found.
+__________________________________________________________________________
+Event Driver: RG ADT-A03 SERVER
+
+Sending Application: RG CIRN ADT
+Version: 2.3   Message Type(770.3): ADT   Event Type: A03
+
+Event Driver Error Summary:
+
+No Event Driver Errors Found.
+          ***************************************
+          For Subscriber: RG ADT-A03 CLIENT
+
+          Receiving Application: RG CIRN ADT
+          Message Type (770.11): ACK   Event Type: A03
+
+          No Subscriber Errors Found.
+__________________________________________________________________________
+Event Driver: XWB RPC EVENT
+
+Sending Application: XWB SENDER
+Version: 2.3.1   Message Type(770.3): SPQ   Event Type: Q08
+
+Event Driver Error Summary:
+
+No Event Driver Errors Found.
+          ***************************************
+          For Subscriber: XWB RPC SUBSCRIBER
+
+          Receiving Application: XWB RECEIVER
+          Message Type (770.11): TBR   Event Type: R08
+
+          No Subscriber Errors Found.
+__________________________________________________________________________
+Event Driver: DGRU-RAI-A01-SERVER
+
+Sending Application: DGRU RAI EVENTS
+Version: 2.3   Message Type(770.3): ADT   Event Type: A01
+
+Event Driver Error Summary:
+
+No Event Driver Errors Found.
+          ***************************************
+          For Subscriber: DGRU-RAI-A01-ROUTER
+
+          Receiving Application: DGRU RAI CLIENT
+          Message Type (770.11): ADT   Event Type: A01
+
+          1. Message Type must be an appropriate response/acknowledgement.
+__________________________________________________________________________
+Event Driver: DGRU-RAI-A11-SERVER
+
+Sending Application: DGRU RAI EVENTS
+Version: 2.3   Message Type(770.3): ADT   Event Type: A11
+
+Event Driver Error Summary:
+
+No Event Driver Errors Found.
+          ***************************************
+          For Subscriber: DGRU-RAI-A11-ROUTER
+
+          Receiving Application: DGRU RAI CLIENT
+          Message Type (770.11): ADT   Event Type: A11
+
+          1. Message Type must be an appropriate response/acknowledgement.
+__________________________________________________________________________
+Event Driver: DGRU-RAI-A02-SERVER
+
+Sending Application: DGRU RAI EVENTS
+Version: 2.3   Message Type(770.3): ADT   Event Type: A02
+
+Event Driver Error Summary:
+
+No Event Driver Errors Found.
+          ***************************************
+          For Subscriber: DGRU-RAI-A02-ROUTER
+
+          Receiving Application: DGRU RAI CLIENT
+          Message Type (770.11): ADT   Event Type: A02
+
+          1. Message Type must be an appropriate response/acknowledgement.
+__________________________________________________________________________
+Event Driver: DGRU-RAI-A03-SERVER
+
+Sending Application: DGRU RAI EVENTS
+Version: 2.3   Message Type(770.3): ADT   Event Type: A03
+
+Event Driver Error Summary:
+
+No Event Driver Errors Found.
+          ***************************************
+          For Subscriber: DGRU-RAI-A03-ROUTER
+
+          Receiving Application: DGRU RAI CLIENT
+          Message Type (770.11): ADT   Event Type: A03
+
+          1. Message Type must be an appropriate response/acknowledgement.
+__________________________________________________________________________
+Event Driver: DGRU-RAI-A12-SERVER
+
+Sending Application: DGRU RAI EVENTS
+Version: 2.3   Message Type(770.3): ADT   Event Type: A12
+
+Event Driver Error Summary:
+
+No Event Driver Errors Found.
+          ***************************************
+          For Subscriber: DGRU-RAI-A12-ROUTER
+
+          Receiving Application: DGRU RAI CLIENT
+          Message Type (770.11): ADT   Event Type: A12
+
+          1. Message Type must be an appropriate response/acknowledgement.
+__________________________________________________________________________
+Event Driver: DGRU-RAI-A13-SERVER
+
+Sending Application: DGRU RAI EVENTS
+Version: 2.3   Message Type(770.3): ADT   Event Type: A13
+
+Event Driver Error Summary:
+
+No Event Driver Errors Found.
+          ***************************************
+          For Subscriber: DGRU-RAI-A13-ROUTER
+
+          Receiving Application: DGRU RAI CLIENT
+          Message Type (770.11): ADT   Event Type: A13
+
+          1. Message Type must be an appropriate response/acknowledgement.
+__________________________________________________________________________
+Event Driver: DGRU-RAI-A21-SERVER
+
+Sending Application: DGRU RAI EVENTS
+Version: 2.3   Message Type(770.3): ADT   Event Type: A21
+
+Event Driver Error Summary:
+
+No Event Driver Errors Found.
+          ***************************************
+          For Subscriber: DGRU-RAI-A21-ROUTER
+
+          Receiving Application: DGRU RAI CLIENT
+          Message Type (770.11): ADT   Event Type: A21
+
+          1. Message Type must be an appropriate response/acknowledgement.
+__________________________________________________________________________
+Event Driver: DGRU-RAI-A22-SERVER
+
+Sending Application: DGRU RAI EVENTS
+Version: 2.3   Message Type(770.3): ADT   Event Type: A22
+
+Event Driver Error Summary:
+
+No Event Driver Errors Found.
+          ***************************************
+          For Subscriber: DGRU-RAI-A22-ROUTER
+
+          Receiving Application: DGRU RAI CLIENT
+          Message Type (770.11): ADT   Event Type: A22
+
+          1. Message Type must be an appropriate response/acknowledgement.
+__________________________________________________________________________
+Event Driver: DGRU-RAI-A08-SERVER
+
+Sending Application: DGRU RAI EVENTS
+Version: 2.3   Message Type(770.3): ADT   Event Type: A08
+
+Event Driver Error Summary:
+
+No Event Driver Errors Found.
+          ***************************************
+          For Subscriber: DGRU-RAI-A08-ROUTER
+
+          Receiving Application: DGRU RAI CLIENT
+          Message Type (770.11): ADT   Event Type: A08
+
+          1. Message Type must be an appropriate response/acknowledgement.
+__________________________________________________________________________
+Event Driver: DGRU-PATIENT-A08-SERVER
+
+Sending Application: DGRU RAI EVENTS
+Version: 2.3   Message Type(770.3): ADT   Event Type: A08
+
+Event Driver Error Summary:
+
+No Event Driver Errors Found.
+          ***************************************
+          For Subscriber: DGRU-PATIENT-A08-ROUTER
+
+          Receiving Application: DGRU RAI CLIENT
+          Message Type (770.11): ADT   Event Type: A08
+
+          1. Message Type must be an appropriate response/acknowledgement.
+__________________________________________________________________________
+Event Driver: DGRU-RAI-MFU-SERVER
+
+Sending Application: DGRU RAI EVENTS
+Version: 2.3   Message Type(770.3): MFN   Event Type: M01
+
+Event Driver Error Summary:
+
+No Event Driver Errors Found.
+          ***************************************
+          For Subscriber: DGRU-RAI-MFU-ROUTER
+
+          Receiving Application: DGRU RAI CLIENT
+          Message Type (770.11): MFN   Event Type: M01
+
+          1. Message Type must be an appropriate response/acknowledgement.
+__________________________________________________________________________
+Event Driver: RG FACILITY INTEGRATION SERVER
+
+Sending Application: RG SITE MERGE
+Version: 2.3   Message Type(770.3): ADT   Event Type: A08
+
+Event Driver Error Summary:
+
+No Event Driver Errors Found.
+          ***************************************
+          For Subscriber: RG FACILITY INTEGRATION CLIENT
+
+          Receiving Application: RG SITE MERGE
+          Message Type (770.11): ACK   Event Type: A08
+
+          No Subscriber Errors Found.
+__________________________________________________________________________
+Event Driver: MCAR Device Server
+
+Sending Application: INST-MCAR
+Version: 2.3   Message Type(770.3): ORU   Event Type: R01
+
+Event Driver Error Summary:
+
+No Event Driver Errors Found.
+          ***************************************
+          For Subscriber: MCAR Device Client
+
+          Receiving Application: MCAR-INST
+          Message Type (770.11): ACK   Event Type: R01
+
+          No Subscriber Errors Found.
+__________________________________________________________________________
+Event Driver: PRCP EV QOH REQ
+
+Sending Application: PRCP_SS_VISTA
+Version: 2.3   Message Type(770.3): OSQ   Event Type: Q06
+
+Event Driver Error Summary:
+
+No Event Driver Errors Found.
+          ***************************************
+          For Subscriber: PRCP SU QOH REQ
+
+          Receiving Application: PRCP_SSTATION
+          Message Type (770.11): OSR   Event Type: Q06
+
+          No Subscriber Errors Found.
+__________________________________________________________________________
+Event Driver: PRCP EV ITEM UPDATE
+
+Sending Application: PRCP_SS_VISTA
+Version: 2.3   Message Type(770.3): MFN   Event Type: Z01
+
+Event Driver Error Summary:
+
+No Event Driver Errors Found.
+          ***************************************
+          For Subscriber: PRCP SU ITEM UPDATE
+
+          Receiving Application: PRCP_SSTATION
+          Message Type (770.11):    Event Type: 
+
+          No Subscriber Errors Found.
+__________________________________________________________________________
+Event Driver: PRCP EV REL ORDER
+
+Sending Application: PRCP_SS_VISTA
+Version: 2.3   Message Type(770.3): ORM   Event Type: O01
+
+Event Driver Error Summary:
+
+No Event Driver Errors Found.
+          ***************************************
+          For Subscriber: PRCP SU REL ORDER
+
+          Receiving Application: PRCP_SSTATION
+          Message Type (770.11):    Event Type: 
+
+          No Subscriber Errors Found.
+__________________________________________________________________________
+Event Driver: PRCP EV INV UPDATE
+
+Sending Application: PRCP_SSTATION
+Version: 2.3   Message Type(770.3): RAS   Event Type: O01
+
+Event Driver Error Summary:
+
+No Event Driver Errors Found.
+          ***************************************
+          For Subscriber: PRCP SU INV UPDATE
+
+          Receiving Application: PRCP_SS_VISTA
+          Message Type (770.11): ACK   Event Type: 
+
+          No Subscriber Errors Found.
+__________________________________________________________________________
+Event Driver: PRCP EV REFILL/POST
+
+Sending Application: PRCP_SSTATION
+Version: 2.3   Message Type(770.3): ORM   Event Type: O01
+
+Event Driver Error Summary:
+
+No Event Driver Errors Found.
+          ***************************************
+          For Subscriber: PRCP SU REFILL/POST
+
+          Receiving Application: PRCP_SS_VISTA
+          Message Type (770.11): ACK   Event Type: 
+
+          No Subscriber Errors Found.
+__________________________________________________________________________
+Event Driver: XUMF MFN
+
+Sending Application: XUMF MFN
+Version: 2.3   Message Type(770.3): MFN   Event Type: M05
+
+Event Driver Error Summary:
+
+No Event Driver Errors Found.
+          ***************************************
+          For Subscriber: XUMF MFK
+
+          Receiving Application: XUMF MFK
+          Message Type (770.11): MFK   Event Type: M05
+
+          No Subscriber Errors Found.
+__________________________________________________________________________
+Event Driver: XUMF MFQ
+
+Sending Application: XUMF MFQ
+Version: 2.3   Message Type(770.3): MFQ   Event Type: M05
+
+Event Driver Error Summary:
+
+No Event Driver Errors Found.
+          ***************************************
+          For Subscriber: XUMF MFR
+
+          Receiving Application: XUMF MFR
+          Message Type (770.11): MFR   Event Type: M05
+
+          No Subscriber Errors Found.
+__________________________________________________________________________
+Event Driver: GMRC IFC ORM EVENT
+
+Sending Application: GMRC IF CONSULT
+Version: 2.3   Message Type(770.3): ORM   Event Type: O01
+
+Event Driver Error Summary:
+
+No Event Driver Errors Found.
+          ***************************************
+          For Subscriber: GMRC IFC SUBSC
+
+          Receiving Application: GMRC IF CONSULT
+          Message Type (770.11): ORR   Event Type: O02
+
+          No Subscriber Errors Found.
+__________________________________________________________________________
+Event Driver: GMRC IFC ORM TEST
+
+Sending Application: GMRC IF TEST
+Version: 2.3   Message Type(770.3): ORM   Event Type: O01
+
+Event Driver Error Summary:
+
+No Event Driver Errors Found.
+          ***************************************
+          For Subscriber: GMRC IFC SUBSC
+
+          Receiving Application: GMRC IF CONSULT
+          Message Type (770.11): ORR   Event Type: O02
+
+          No Subscriber Errors Found.
+__________________________________________________________________________
+Event Driver: ROR-SITE-DRIVER
+
+Sending Application: ROR SITE
+Version: 2.4   Message Type(770.3): CSU   Event Type: C09
+
+Event Driver Error Summary:
+
+No Event Driver Errors Found.
+          ***************************************
+          For Subscriber: ROR-SITE-SUBSCRIBER
+
+          Receiving Application: ROR AAC
+          Message Type (770.11): ACK   Event Type: C09
+
+          No Subscriber Errors Found.
+__________________________________________________________________________
+Event Driver: XUMF IMF MFN
+
+Sending Application: XUMF IMF MFN
+Version: 2.3   Message Type(770.3): MFN   Event Type: M05
+
+Event Driver Error Summary:
+
+No Event Driver Errors Found.
+          ***************************************
+          For Subscriber: XUMF IMF MFK
+
+          Receiving Application: XUMF IMF MFK
+          Message Type (770.11): MFK   Event Type: M05
+
+          No Subscriber Errors Found.
+__________________________________________________________________________
+Event Driver: VAFC QRY-A19 SERVER
+
+Sending Application: VAFC TRIGGER
+Version: 2.4   Message Type(770.3): QRY   Event Type: A19
+
+Event Driver Error Summary:
+
+No Event Driver Errors Found.
+          ***************************************
+          For Subscriber: VAFC ADR-A19 CLIENT
+
+          Receiving Application: VAFC TRIGGER
+          Message Type (770.11): ADR   Event Type: A19
+
+          No Subscriber Errors Found.
+__________________________________________________________________________
+Event Driver: VAFC MFN-M05 SERVER
+
+Sending Application: VAFC TRIGGER
+Version: 2.4   Message Type(770.3): MFN   Event Type: M05
+
+Event Driver Error Summary:
+
+No Event Driver Errors Found.
+          ***************************************
+          For Subscriber: VAFC MFN-M05 CLIENT
+
+          Receiving Application: VAFC TRIGGER
+          Message Type (770.11): MFK   Event Type: M05
+
+          No Subscriber Errors Found.
+__________________________________________________________________________
+Event Driver: MPIF ADT-A43 SERVER
+
+Sending Application: MPIF TRIGGER
+Version: 2.4   Message Type(770.3): ADT   Event Type: A43
+
+Event Driver Error Summary:
+
+No Event Driver Errors Found.
+          ***************************************
+          For Subscriber: MPIF ADT-A43 CLIENT
+
+          Receiving Application: MPIF TRIGGER
+          Message Type (770.11): ACK   Event Type: A43
+
+          No Subscriber Errors Found.
+__________________________________________________________________________
+Event Driver: MPIF ADT-A31 SERVER
+
+Sending Application: MPIF TRIGGER
+Version: 2.4   Message Type(770.3): ADT   Event Type: A31
+
+Event Driver Error Summary:
+
+No Event Driver Errors Found.
+          ***************************************
+          For Subscriber: MPIF ADT-A31 CLIENT
+
+          Receiving Application: MPIF TRIGGER
+          Message Type (770.11): ACK   Event Type: A31
+
+          No Subscriber Errors Found.
+__________________________________________________________________________
+Event Driver: MPIF ADT-A28 SERVER
+
+Sending Application: MPIF TRIGGER
+Version: 2.4   Message Type(770.3): ADT   Event Type: A28
+
+Event Driver Error Summary:
+
+No Event Driver Errors Found.
+          ***************************************
+          For Subscriber: MPIF ADT-A28 CLIENT
+
+          Receiving Application: MPIF TRIGGER
+          Message Type (770.11): ACK   Event Type: A28
+
+          No Subscriber Errors Found.
+__________________________________________________________________________
+Event Driver: MPIF ADT-A24 SERVER
+
+Sending Application: MPIF TRIGGER
+Version: 2.4   Message Type(770.3): ADT   Event Type: A24
+
+Event Driver Error Summary:
+
+No Event Driver Errors Found.
+          ***************************************
+          For Subscriber: MPIF ADT-A24 CLIENT
+
+          Receiving Application: MPIF TRIGGER
+          Message Type (770.11): ACK   Event Type: A24
+
+          No Subscriber Errors Found.
+__________________________________________________________________________
+Event Driver: MPIF ADT-A40 SERVER
+
+Sending Application: MPIF TRIGGER
+Version: 2.4   Message Type(770.3): ADT   Event Type: A40
+
+Event Driver Error Summary:
+
+No Event Driver Errors Found.
+          ***************************************
+          For Subscriber: MPIF ADT-A40 CLIENT
+
+          Receiving Application: MPIF TRIGGER
+          Message Type (770.11): ACK   Event Type: A40
+
+          No Subscriber Errors Found.
+__________________________________________________________________________
+Event Driver: MPIF ADT-A37 SERVER
+
+Sending Application: MPIF TRIGGER
+Version: 2.4   Message Type(770.3): ADT   Event Type: A37
+
+Event Driver Error Summary:
+
+No Event Driver Errors Found.
+          ***************************************
+          For Subscriber: MPIF ADT-A37 CLIENT
+
+          Receiving Application: MPIF TRIGGER
+          Message Type (770.11): ACK   Event Type: A37
+
+          No Subscriber Errors Found.
+__________________________________________________________________________
+Event Driver: RG ADT-A01 2.4 SERVER
+
+Sending Application: RG ADT
+Version: 2.4   Message Type(770.3): ADT   Event Type: A01
+
+Event Driver Error Summary:
+
+No Event Driver Errors Found.
+          ***************************************
+          For Subscriber: RG ADT-A01 2.4 CLIENT
+
+          Receiving Application: RG ADT
+          Message Type (770.11): ACK   Event Type: A01
+
+          No Subscriber Errors Found.
+__________________________________________________________________________
+Event Driver: RG ADT-A03 2.4 SERVER
+
+Sending Application: RG ADT
+Version: 2.4   Message Type(770.3): ADT   Event Type: A03
+
+Event Driver Error Summary:
+
+No Event Driver Errors Found.
+          ***************************************
+          For Subscriber: RG ADT-A03 2.4 CLIENT
+
+          Receiving Application: RG ADT
+          Message Type (770.11): ACK   Event Type: A03
+
+          No Subscriber Errors Found.
+__________________________________________________________________________
+Event Driver: RG ADT-A04 2.4 SERVER
+
+Sending Application: RG ADT
+Version: 2.4   Message Type(770.3): ADT   Event Type: A04
+
+Event Driver Error Summary:
+
+No Event Driver Errors Found.
+          ***************************************
+          For Subscriber: RG ADT-A04 2.4 CLIENT
+
+          Receiving Application: RG ADT
+          Message Type (770.11): ACK   Event Type: A04
+
+          No Subscriber Errors Found.
+__________________________________________________________________________
+Event Driver: RG ADT-A08 2.4 SERVER
+
+Sending Application: RG ADT
+Version: 2.4   Message Type(770.3): ADT   Event Type: A08
+
+Event Driver Error Summary:
+
+No Event Driver Errors Found.
+          ***************************************
+          For Subscriber: RG ADT-A08 2.4 CLIENT
+
+          Receiving Application: RG ADT
+          Message Type (770.11): ACK   Event Type: A08
+
+          No Subscriber Errors Found.
+__________________________________________________________________________
+Event Driver: XUHUI MFN
+
+Sending Application: XUHUI MFN
+Version: 2.3.1   Message Type(770.3): MFN   Event Type: M02
+
+Event Driver Error Summary:
+
+No Event Driver Errors Found.
+          ***************************************
+          For Subscriber: XUHUI MFK
+
+          Receiving Application: XUHUI MFK
+          Message Type (770.11): MFK   Event Type: M02
+
+          No Subscriber Errors Found.
+__________________________________________________________________________
+Event Driver: EAS EDB ORU-Z06 SERVER
+
+Sending Application: EDB eGate
+Version: 2.3.1   Message Type(770.3): ORU   Event Type: Z06
+
+Event Driver Error Summary:
+
+No Event Driver Errors Found.
+          ***************************************
+          For Subscriber: EAS EDB ORU-Z06 CLIENT
+
+          Receiving Application: EAS EDB
+          Message Type (770.11): ACK   Event Type: 
+
+          No Subscriber Errors Found.
+__________________________________________________________________________
+Event Driver: EAS EDB ORU-Z09 SERVER
+
+Sending Application: EAS EDB
+Version: 2.3.1   Message Type(770.3): ORU   Event Type: Z09
+
+Event Driver Error Summary:
+
+No Event Driver Errors Found.
+          ***************************************
+          For Subscriber: EAS EDB ORU-Z09 CLIENT
+
+          Receiving Application: EDB eGate
+          Message Type (770.11): ACK   Event Type: 
+
+          No Subscriber Errors Found.
+__________________________________________________________________________
+Event Driver: SCMC SEND SERVER WORKLOAD
+
+Sending Application: PCMM
+Version: 2.4   Message Type(770.3): PMU   Event Type: B02
+
+Event Driver Error Summary:
+
+No Event Driver Errors Found.
+          ***************************************
+          For Subscriber: SCMC SEND CLIENT WORKLOAD
+
+          Receiving Application: 
+          Message Type (770.11): ADT   Event Type: B02
+
+          1. Missing Required Receiving Application.
+          2. Message Type must be an appropriate response/acknowledgement.
+__________________________________________________________________________
+Event Driver: RMIM DRIVER
+
+Sending Application: RMIM SITE
+Version: 2.4   Message Type(770.3): ORU   Event Type: R01
+
+Event Driver Error Summary:
+
+No Event Driver Errors Found.
+          ***************************************
+          For Subscriber: RMIM SUBSCRIBER
+
+          Receiving Application: RMIM AAC
+          Message Type (770.11): ACK   Event Type: R01
+
+          No Subscriber Errors Found.
+__________________________________________________________________________
+Event Driver: DG PATCH 244
+
+Sending Application: VAFC PIMS
+Version: 2.3   Message Type(770.3): ADT   Event Type: A08
+
+Event Driver Error Summary:
+
+No Event Driver Errors Found.
+          ***************************************
+          For Subscriber: RG ADT-A08 TRIGGER
+
+          Receiving Application: RG ADT
+          Message Type (770.11): ACK   Event Type: A08
+
+          No Subscriber Errors Found.
+__________________________________________________________________________
+Event Driver: XUOAA PMU
+
+Sending Application: XUOAA PMU
+Version: 2.4   Message Type(770.3): PMU   Event Type: B02
+
+Event Driver Error Summary:
+
+No Event Driver Errors Found.
+          ***************************************
+          For Subscriber: XUOAA ACK
+
+          Receiving Application: XUOAA ACK
+          Message Type (770.11): ACK   Event Type: B02
+
+          No Subscriber Errors Found.
+__________________________________________________________________________
+Event Driver: PSB BCBU ORM SEND
+
+Sending Application: PSB BCBU SERVER
+Version: 2.3.1   Message Type(770.3): ORM   Event Type: O01
+
+Event Driver Error Summary:
+
+No Event Driver Errors Found.
+          ***************************************
+          For Subscriber: PSB BCBU ORM RECV
+
+          Receiving Application: PSB BCBU CLIENT
+          Message Type (770.11): ACK   Event Type: O01
+
+          No Subscriber Errors Found.
+__________________________________________________________________________
+Event Driver: PSB BCBU PMU_B01 EVENT
+
+Sending Application: PSB PMU SEND
+Version: 2.4   Message Type(770.3): PMU   Event Type: B01
+
+Event Driver Error Summary:
+
+No Event Driver Errors Found.
+          ***************************************
+          For Subscriber: PSB BCBU PMU_B01 RECV
+
+          Receiving Application: PSB PMU RECV
+          Message Type (770.11): ACK   Event Type: B01
+
+          No Subscriber Errors Found.
+__________________________________________________________________________
+Event Driver: PSB BCBU PMU_B02 EVENT
+
+Sending Application: PSB PMU SEND
+Version: 2.4   Message Type(770.3): PMU   Event Type: B02
+
+Event Driver Error Summary:
+
+No Event Driver Errors Found.
+          ***************************************
+          For Subscriber: PSB BCBU PMU_B02 RECV
+
+          Receiving Application: PSB PMU RECV
+          Message Type (770.11): ACK   Event Type: B02
+
+          No Subscriber Errors Found.
+__________________________________________________________________________
+Event Driver: DGPF PRF ORU/R01 EVENT
+
+Sending Application: PRF-SEND
+Version: 2.3   Message Type(770.3): ORU   Event Type: R01
+
+Event Driver Error Summary:
+
+No Event Driver Errors Found.
+          ***************************************
+          For Subscriber: DGPF PRF ORU/R01 SUBSC
+
+          Receiving Application: PRF-RECV
+          Message Type (770.11): ACK   Event Type: R01
+
+          No Subscriber Errors Found.
+__________________________________________________________________________
+Event Driver: DGPF PRF QRY/R02 EVENT
+
+Sending Application: PRF-QRY
+Version: 2.3   Message Type(770.3): QRY   Event Type: R02
+
+Event Driver Error Summary:
+
+No Event Driver Errors Found.
+          ***************************************
+          For Subscriber: DGPF PRF ORF/R04 SUBSC
+
+          Receiving Application: PRF-QRYRESP
+          Message Type (770.11): ORF   Event Type: R04
+
+          No Subscriber Errors Found.
+__________________________________________________________________________
+Event Driver: PSO TPB EV
+
+Sending Application: PSO TPB-PHARM
+Version: 2.4   Message Type(770.3): SIU   Event Type: S12
+
+Event Driver Error Summary:
+
+No Event Driver Errors Found.
+          ***************************************
+          For Subscriber: PSO TPB SUB
+
+          Receiving Application: PSO TPB-AAC
+          Message Type (770.11):    Event Type: 
+
+          No Subscriber Errors Found.
+__________________________________________________________________________
+Event Driver: IBCNE IIV REGISTER
+
+Sending Application: IIV VISTA
+Version: 2.4   Message Type(770.3): MFN   Event Type: M01
+
+Event Driver Error Summary:
+
+No Event Driver Errors Found.
+          ***************************************
+          For Subscriber: IBCNE IIV MFN OUT
+
+          Receiving Application: IIV EC
+          Message Type (770.11): ACK   Event Type: M01
+
+          No Subscriber Errors Found.
+__________________________________________________________________________
+Event Driver: IBCNE IIV RQV OUT
+
+Sending Application: IIV VISTA
+Version: 2.4   Message Type(770.3): RQI   Event Type: I01
+
+Event Driver Error Summary:
+
+No Event Driver Errors Found.
+          ***************************************
+          For Subscriber: IBCNE IIV VER REQUEST
+
+          Receiving Application: IIV EC
+          Message Type (770.11): ACK   Event Type: I01
+
+          No Subscriber Errors Found.
+__________________________________________________________________________
+Event Driver: IBCNE IIV RQI OUT
+
+Sending Application: IIV VISTA
+Version: 2.4   Message Type(770.3): RQI   Event Type: I03
+
+Event Driver Error Summary:
+
+No Event Driver Errors Found.
+          ***************************************
+          For Subscriber: IBCNE IIV ID REQUEST
+
+          Receiving Application: IIV EC
+          Message Type (770.11): ACK   Event Type: I01
+
+          No Subscriber Errors Found.
+__________________________________________________________________________
+Event Driver: IBCNE IIV MFN IN
+
+Sending Application: IIV EC
+Version: 2.4   Message Type(770.3): MFN   Event Type: M01
+
+Event Driver Error Summary:
+
+No Event Driver Errors Found.
+          ***************************************
+          For Subscriber: IBCNE IIV TABLE
+
+          Receiving Application: IIV VISTA
+          Message Type (770.11): MFK   Event Type: M01
+
+          No Subscriber Errors Found.
+__________________________________________________________________________
+Event Driver: IBCNE IIV IN
+
+Sending Application: IIV EC
+Version: 2.4   Message Type(770.3): RPI   Event Type: I01
+
+Event Driver Error Summary:
+
+No Event Driver Errors Found.
+          ***************************************
+          For Subscriber: IBCNE IIV RESPONSE
+
+          Receiving Application: IIV VISTA
+          Message Type (770.11): ACK   Event Type: I01
+
+          No Subscriber Errors Found.
+__________________________________________________________________________
+Event Driver: FB FEE TO FPPS EVENT
+
+Sending Application: FB FEE-FPPS
+Version: 2.4   Message Type(770.3): ORM   Event Type: O01
+
+Event Driver Error Summary:
+
+No Event Driver Errors Found.
+          ***************************************
+          For Subscriber: FB FEE TO FPPS SUBSCRIBER
+
+          Receiving Application: FB CPE FPPS
+          Message Type (770.11): ACK   Event Type: 
+
+          No Subscriber Errors Found.
+__________________________________________________________________________
+Event Driver: PSB BCMA RASO17 SRV
+
+Sending Application: PSB HL7 SRV
+Version: 2.4   Message Type(770.3): RAS   Event Type: O17
+
+Event Driver Error Summary:
+
+No Event Driver Errors Found.
+          ***************************************
+          For Subscriber: PSB BCMA RASO17 SUB
+
+          Receiving Application: PSB HL7 SUB
+          Message Type (770.11): ACK   Event Type: O01
+
+          No Subscriber Errors Found.
+__________________________________________________________________________
+Event Driver: DGRO ROM QRY/R02 EVENT
+
+Sending Application: DGRO-QRY
+Version: 2.3   Message Type(770.3): QRY   Event Type: R02
+
+Event Driver Error Summary:
+
+No Event Driver Errors Found.
+          ***************************************
+          For Subscriber: DGRO ROM ORF/R04 SUBSC
+
+          Receiving Application: DGRO-QRYRESP
+          Message Type (770.11): ORF   Event Type: R04
+
+          No Subscriber Errors Found.
+__________________________________________________________________________
+Event Driver: SD-PAIT-EVENT
+
+Sending Application: SD-SITE-PAIT
+Version: 2.4   Message Type(770.3): SIU   Event Type: S12
+
+Event Driver Error Summary:
+
+No Event Driver Errors Found.
+          ***************************************
+          For Subscriber: SD-PAIT-SUBS
+
+          Receiving Application: SD-AAC-PAIT
+          Message Type (770.11): ACK   Event Type: S12
+
+          No Subscriber Errors Found.
+__________________________________________________________________________
+Event Driver: SD ENC PERF MON ORU-R01 SERVER
+
+Sending Application: SD ENC PERF MON
+Version: 2.4   Message Type(770.3): ORU   Event Type: R01
+
+Event Driver Error Summary:
+
+No Event Driver Errors Found.
+          ***************************************
+          For Subscriber: SD ENC PERF MON ORU-R01 CLIENT
+
+          Receiving Application: AAC
+          Message Type (770.11): ACK   Event Type: R01
+
+          No Subscriber Errors Found.
+__________________________________________________________________________
+Event Driver: MCAR ORM SERVER
+
+Sending Application: MCAR-INST
+Version: 2.3   Message Type(770.3): ORM   Event Type: O01
+
+Event Driver Error Summary:
+
+No Event Driver Errors Found.
+          ***************************************
+          For Subscriber: MCAR ORM CLIENT
+
+          Receiving Application: INST-MCAR
+          Message Type (770.11): ORR   Event Type: O02
+
+          No Subscriber Errors Found.
+__________________________________________________________________________
+Event Driver: DGQE VIC ORM/O01 EVENT
+
+Sending Application: VIC NCMD SEND
+Version: 2.4   Message Type(770.3): ORM   Event Type: O01
+
+Event Driver Error Summary:
+
+No Event Driver Errors Found.
+          ***************************************
+          For Subscriber: DGQE VIC ORR/O02 SUBSC
+
+          Receiving Application: VIC NCMD RECV
+          Message Type (770.11): ORR   Event Type: O02
+
+          No Subscriber Errors Found.
+__________________________________________________________________________
+Event Driver: PSO EXT SERVER
+
+Sending Application: PSO VISTA
+Version: 2.4   Message Type(770.3): RDS   Event Type: O13
+
+Event Driver Error Summary:
+
+No Event Driver Errors Found.
+          ***************************************
+          For Subscriber: PSO EXT CLIENT
+
+          Receiving Application: PSO DISPENSE
+          Message Type (770.11): ACK   Event Type: O13
+
+          No Subscriber Errors Found.
+__________________________________________________________________________
+Event Driver: PSO DISP SERVER
+
+Sending Application: PSO DISPENSE
+Version: 2.4   Message Type(770.3): RRD   Event Type: O14
+
+Event Driver Error Summary:
+
+1. For Event Driver-Message Type cannot be an acknowledgement.
+          ***************************************
+          For Subscriber: PSO DISP CLIENT
+
+          Receiving Application: PSO VISTA
+          Message Type (770.11): ACK   Event Type: O14
+
+          No Subscriber Errors Found.
+__________________________________________________________________________
+Event Driver: PSS EXT MFU SERVER
+
+Sending Application: PSS VISTA
+Version: 2.4   Message Type(770.3): MFN   Event Type: M01
+
+Event Driver Error Summary:
+
+No Event Driver Errors Found.
+          ***************************************
+          For Subscriber: PSS EXT MFU CLIENT
+
+          Receiving Application: PSS DISPENSE
+          Message Type (770.11): ACK   Event Type: M01
+
+          No Subscriber Errors Found.
+__________________________________________________________________________
+Event Driver: BPSJ REGISTER
+
+Sending Application: E-PHARM VISTA
+Version: 2.4   Message Type(770.3): MFN   Event Type: M01
+
+Event Driver Error Summary:
+
+No Event Driver Errors Found.
+          ***************************************
+          For Subscriber: BPSJ MFN REGISTER1
+
+          Receiving Application: E-PHARM VITRIA
+          Message Type (770.11): ACK   Event Type: M01
+
+          No Subscriber Errors Found.
+__________________________________________________________________________
+Event Driver: BPSJ PAYER INPUT
+
+Sending Application: E-PHARM VITRIA
+Version: 2.4   Message Type(770.3): MFN   Event Type: M01
+
+Event Driver Error Summary:
+
+No Event Driver Errors Found.
+          ***************************************
+          For Subscriber: BPSJ PAYER RESPONSE
+
+          Receiving Application: E-PHARM VISTA
+          Message Type (770.11): MFK   Event Type: M01
+
+          No Subscriber Errors Found.
+__________________________________________________________________________
+Event Driver: PSO VDEF RDE O11 OP PHARM PRES VS
+
+Sending Application: HDRPRES
+Version: 2.4   Message Type(770.3): RDE   Event Type: O11
+
+Event Driver Error Summary:
+
+No Event Driver Errors Found.
+          ***************************************
+          For Subscriber: PSO VDEF RDE O11 OP PHARM PRES HR
+
+          Receiving Application: PSO VDEF IE SIDE
+          Message Type (770.11): ACK   Event Type: 
+
+          No Subscriber Errors Found.
+__________________________________________________________________________
+Event Driver: PSO VDEF RDS O13 OP PHARM PPAR VS
+
+Sending Application: HDRPPAR
+Version: 2.4   Message Type(770.3): RDS   Event Type: O13
+
+Event Driver Error Summary:
+
+No Event Driver Errors Found.
+          ***************************************
+          For Subscriber: PSO VDEF RDS O13 OP PHARM PPAR HR
+
+          Receiving Application: PSO VDEF IE SIDE
+          Message Type (770.11): ACK   Event Type: 
+
+          No Subscriber Errors Found.
+__________________________________________________________________________
+Event Driver: PSO VDEF RDS O13 OP PHARM PREF VS
+
+Sending Application: HDRPREF
+Version: 2.4   Message Type(770.3): RDS   Event Type: O13
+
+Event Driver Error Summary:
+
+No Event Driver Errors Found.
+          ***************************************
+          For Subscriber: PSO VDEF RDS O13 OP PHARM PREF HR
+
+          Receiving Application: PSO VDEF IE SIDE
+          Message Type (770.11): ACK   Event Type: 
+
+          No Subscriber Errors Found.
+__________________________________________________________________________
+Event Driver: GMRV ORU R01 VITALS VS
+
+Sending Application: HDRVTLS
+Version: 2.4   Message Type(770.3): ORU   Event Type: R01
+
+Event Driver Error Summary:
+
+No Event Driver Errors Found.
+          ***************************************
+          For Subscriber: GMRV ORU R01 VITALS HR
+
+          Receiving Application: GMRV VDEF IE SIDE
+          Message Type (770.11): ACK   Event Type: 
+
+          No Subscriber Errors Found.
+__________________________________________________________________________
+Event Driver: GMRA VDEF ORU R01 ADV REACT VS
+
+Sending Application: HDRADRA
+Version: 2.4   Message Type(770.3): ORU   Event Type: R01
+
+Event Driver Error Summary:
+
+No Event Driver Errors Found.
+          ***************************************
+          For Subscriber: GMRA VDEF ORU R01 ADV REACT HR
+
+          Receiving Application: GMRA VDEF IE SIDE
+          Message Type (770.11): ACK   Event Type: 
+
+          No Subscriber Errors Found.
+__________________________________________________________________________
+Event Driver: GMRA VDEF ORU R01 ALLERGY VS
+
+Sending Application: HDRALGY
+Version: 2.4   Message Type(770.3): ORU   Event Type: R01
+
+Event Driver Error Summary:
+
+No Event Driver Errors Found.
+          ***************************************
+          For Subscriber: GMRA VDEF ORU R01 ALLERGY HR
+
+          Receiving Application: GMRA VDEF IE SIDE
+          Message Type (770.11): ACK   Event Type: 
+
+          No Subscriber Errors Found.
+__________________________________________________________________________
+Event Driver: GMRA VDEF ORU R01 ADV ASSESS VS
+
+Sending Application: HDRADAS
+Version: 2.4   Message Type(770.3): ORU   Event Type: R01
+
+Event Driver Error Summary:
+
+No Event Driver Errors Found.
+          ***************************************
+          For Subscriber: GMRA VDEF ORU R01 ADV ASSESS HR
+
+          Receiving Application: GMRA VDEF IE SIDE
+          Message Type (770.11): ACK   Event Type: 
+
+          No Subscriber Errors Found.
+__________________________________________________________________________
+Event Driver: PXRM7 RECO SERVER
+
+Sending Application: PXRM7-REM-COM
+Version: 2.3.1   Message Type(770.3): ORU   Event Type: R01
+
+Event Driver Error Summary:
+
+No Event Driver Errors Found.
+          ***************************************
+          For Subscriber: PXRM7 RECO SUBSCRIBER
+
+          Receiving Application: PXRM7-REM-COM
+          Message Type (770.11): ACK   Event Type: R01
+
+          No Subscriber Errors Found.
+__________________________________________________________________________
+Event Driver: PSU-SITE-DRIVER
+
+Sending Application: PSU-SITE
+Version: 2.4   Message Type(770.3): OUL   Event Type: R21
+
+Event Driver Error Summary:
+
+No Event Driver Errors Found.
+          ***************************************
+          For Subscriber: PSU-SITE-SUBSCRIBER
+
+          Receiving Application: PSU NAT SITE
+          Message Type (770.11): ACK   Event Type: A01
+
+          No Subscriber Errors Found.
+__________________________________________________________________________
+Event Driver: XUMFX SERVER
+
+Sending Application: XUMFX SERVER
+Version: 2.4   Message Type(770.3): MFN   Event Type: M01
+
+Event Driver Error Summary:
+
+No Event Driver Errors Found.
+          ***************************************
+          For Subscriber: XUMF MFS
+
+          Receiving Application: XUMF MFS
+          Message Type (770.11): MFK   Event Type: M01
+
+          No Subscriber Errors Found.
+__________________________________________________________________________
+Event Driver: XUMF MFP MFQ
+
+Sending Application: XUMF MFP MFQ
+Version: 2.3   Message Type(770.3): MFQ   Event Type: M05
+
+Event Driver Error Summary:
+
+No Event Driver Errors Found.
+          ***************************************
+          For Subscriber: XUMF MFP MFR
+
+          Receiving Application: XUMF MFP MFR
+          Message Type (770.11): MFR   Event Type: M05
+
+          No Subscriber Errors Found.
+__________________________________________________________________________
+Event Driver: XUMFX MFQ
+
+Sending Application: XUMFX MFQ
+Version: 2.4   Message Type(770.3): MFQ   Event Type: M01
+
+Event Driver Error Summary:
+
+No Event Driver Errors Found.
+          ***************************************
+          For Subscriber: XUMFX MFR
+
+          Receiving Application: XUMFX MFR
+          Message Type (770.11): MFR   Event Type: M01
+
+          No Subscriber Errors Found.
+__________________________________________________________________________
+Event Driver: DS Pub Man~~L
+
+Sending Application: DS Pub Man~~L
+Version: 2.4   Message Type(770.3): MFN   Event Type: M01
+
+Event Driver Error Summary:
+
+No Event Driver Errors Found.
+          ***************************************
+          For Subscriber: XUMF MFS
+
+          Receiving Application: XUMF MFS
+          Message Type (770.11): MFK   Event Type: M01
+
+          No Subscriber Errors Found.
+__________________________________________________________________________
+Event Driver: DTS Term Srv~~L
+
+Sending Application: DTS Term Srv~~L
+Version: 2.4   Message Type(770.3): MFN   Event Type: M01
+
+Event Driver Error Summary:
+
+No Event Driver Errors Found.
+          ***************************************
+          For Subscriber: XUMF MFS
+
+          Receiving Application: XUMF MFS
+          Message Type (770.11): MFK   Event Type: M01
+
+          No Subscriber Errors Found.
+__________________________________________________________________________
+Event Driver: LA7POC1 ORU-R01 EVENT 2.4
+
+Sending Application: LA7POC1
+Version: 2.4   Message Type(770.3): ORU   Event Type: R01
+
+Event Driver Error Summary:
+
+No Event Driver Errors Found.
+          ***************************************
+          For Subscriber: LA7POC ORU-R01 SUBS 2.4
+
+          Receiving Application: LA7LAB
+          Message Type (770.11): ACK   Event Type: R01
+
+          No Subscriber Errors Found.
+__________________________________________________________________________
+Event Driver: LA7POC2 ORU-R01 EVENT 2.4
+
+Sending Application: LA7POC2
+Version: 2.4   Message Type(770.3): ORU   Event Type: R01
+
+Event Driver Error Summary:
+
+No Event Driver Errors Found.
+          ***************************************
+          For Subscriber: LA7POC ORU-R01 SUBS 2.4
+
+          Receiving Application: LA7LAB
+          Message Type (770.11): ACK   Event Type: R01
+
+          No Subscriber Errors Found.
+__________________________________________________________________________
+Event Driver: LA7POC3 ORU-R01 EVENT 2.4
+
+Sending Application: LA7POC3
+Version: 2.4   Message Type(770.3): ORU   Event Type: R01
+
+Event Driver Error Summary:
+
+No Event Driver Errors Found.
+          ***************************************
+          For Subscriber: LA7POC ORU-R01 SUBS 2.4
+
+          Receiving Application: LA7LAB
+          Message Type (770.11): ACK   Event Type: R01
+
+          No Subscriber Errors Found.
+__________________________________________________________________________
+Event Driver: LA7POC4 ORU-R01 EVENT 2.4
+
+Sending Application: LA7POC4
+Version: 2.4   Message Type(770.3): ORU   Event Type: R01
+
+Event Driver Error Summary:
+
+No Event Driver Errors Found.
+          ***************************************
+          For Subscriber: LA7POC ORU-R01 SUBS 2.4
+
+          Receiving Application: LA7LAB
+          Message Type (770.11): ACK   Event Type: R01
+
+          No Subscriber Errors Found.
+__________________________________________________________________________
+Event Driver: LA7POC5 ORU-R01 EVENT 2.4
+
+Sending Application: LA7POC5
+Version: 2.4   Message Type(770.3): ORU   Event Type: R01
+
+Event Driver Error Summary:
+
+No Event Driver Errors Found.
+          ***************************************
+          For Subscriber: LA7POC ORU-R01 SUBS 2.4
+
+          Receiving Application: LA7LAB
+          Message Type (770.11): ACK   Event Type: R01
+
+          No Subscriber Errors Found.
+__________________________________________________________________________
+Event Driver: PRCV_IFCAP_02_EV_OBL/AMEND
+
+Sending Application: PRCV_IFCAP_PO
+Version: 2.4   Message Type(770.3): ORM   Event Type: O01
+
+Event Driver Error Summary:
+
+No Event Driver Errors Found.
+          ***************************************
+          For Subscriber: PRCV_IFCAP_02_SU_OBL/AMEND
+
+          Receiving Application: PRCV_DYNAMED
+          Message Type (770.11): ORR   Event Type: O02
+
+          No Subscriber Errors Found.
+__________________________________________________________________________
+Event Driver: PRCV_IFCAP_03_EV_REC/ADJ
+
+Sending Application: PRCV_IFCAP_RECV
+Version: 2.4   Message Type(770.3): ORM   Event Type: O01
+
+Event Driver Error Summary:
+
+No Event Driver Errors Found.
+          ***************************************
+          For Subscriber: PRCV_IFCAP_03_SU_REC/ADJ
+
+          Receiving Application: PRCV_DYNAMED
+          Message Type (770.11): ORR   Event Type: O02
+
+          No Subscriber Errors Found.
+__________________________________________________________________________
+Event Driver: PRCV_IFCAP_01_EV_DYNAMED_UPDATE
+
+Sending Application: PRCV_IFCAP_2237
+Version: 2.4   Message Type(770.3): OMN   Event Type: O07
+
+Event Driver Error Summary:
+
+No Event Driver Errors Found.
+          ***************************************
+          For Subscriber: PRCV_IFCAP_01_SU_DYNAMED_UPDATE
+
+          Receiving Application: PRCV_DYNAMED
+          Message Type (770.11): ORN   Event Type: O08
+
+          1. Message Type must be an appropriate response/acknowledgement.
+__________________________________________________________________________
+Event Driver: PRCV_DYNAMED_01_EV_REQUISITION_SEND
+
+Sending Application: PRCV_DYNAMED
+Version: 2.4   Message Type(770.3): OMN   Event Type: O07
+
+Event Driver Error Summary:
+
+No Event Driver Errors Found.
+          ***************************************
+          For Subscriber: PRCV_DYNAMED_01_SU_REQUISITION_SEND
+
+          Receiving Application: PRCV_IFCAP_REQ
+          Message Type (770.11): ORN   Event Type: O08
+
+          1. Message Type must be an appropriate response/acknowledgement.
+__________________________________________________________________________
+Event Driver: PRCV_IFCAP_05_EV_ITEM_UPD
+
+Sending Application: PRCV_IFCAP_IT
+Version: 2.4   Message Type(770.3): MFN   Event Type: M01
+
+Event Driver Error Summary:
+
+No Event Driver Errors Found.
+          ***************************************
+          For Subscriber: PRCV_IFCAP_05_SU_ITEM_UPD
+
+          Receiving Application: PRCV_DYNAMED
+          Message Type (770.11): MFK   Event Type: M01
+
+          No Subscriber Errors Found.
+__________________________________________________________________________
+Event Driver: PRCV_IFCAP_04_EV_VEND_UPD
+
+Sending Application: PRCV_IFCAP_VEN
+Version: 2.4   Message Type(770.3): MFN   Event Type: M01
+
+Event Driver Error Summary:
+
+No Event Driver Errors Found.
+          ***************************************
+          For Subscriber: PRCV_IFCAP_04_SU_VEND_UPD
+
+          Receiving Application: PRCV_DYNAMED
+          Message Type (770.11): MFK   Event Type: M01
+
+          No Subscriber Errors Found.
+__________________________________________________________________________
+Event Driver: PRCV_DYNAMED_20_EV_FUND_BAL_SUBSCRIBE
+
+Sending Application: PRCV_DYNAMED
+Version: 2.4   Message Type(770.3): QSB   Event Type: Q16
+
+Event Driver Error Summary:
+
+No Event Driver Errors Found.
+          ***************************************
+          For Subscriber: PRCV_DYNAMED_20_SU_FUND_BAL_SUBSCRIBE
+
+          Receiving Application: PRCV_IFCAP_FSUB
+          Message Type (770.11): ACK   Event Type: Q16
+
+          No Subscriber Errors Found.
+__________________________________________________________________________
+Event Driver: PRCV_DYNAMED_21_EV_FUND_BAL_CANCEL_SUB
+
+Sending Application: PRCV_DYNAMED
+Version: 2.4   Message Type(770.3): QCN   Event Type: J02
+
+Event Driver Error Summary:
+
+No Event Driver Errors Found.
+          ***************************************
+          For Subscriber: PRCV_DYNAMED_21_SU_FUND_BAL_CANCEL_SUB
+
+          Receiving Application: PRCV_IFCAP_FCAN
+          Message Type (770.11): ACK   Event Type: J02
+
+          No Subscriber Errors Found.
+__________________________________________________________________________
+Event Driver: PRCV_DYNAMED_22_EV_FUND_BAL_DATA
+
+Sending Application: PRCV_IFCAP_FBAL
+Version: 2.4   Message Type(770.3): MFN   Event Type: M01
+
+Event Driver Error Summary:
+
+No Event Driver Errors Found.
+          ***************************************
+          For Subscriber: PRCV_DYNAMED_22_SU_FUND_BAL_DATA
+
+          Receiving Application: PRCV_DYNAMED
+          Message Type (770.11): MFK   Event Type: M01
+
+          No Subscriber Errors Found.
+__________________________________________________________________________
+Event Driver: PRCV_IFCAP_06_EV_IB_PROC
+
+Sending Application: PRCV_DYNAMED
+Version: 2.4   Message Type(770.3): DFT   Event Type: P03
+
+Event Driver Error Summary:
+
+No Event Driver Errors Found.
+          ***************************************
+          For Subscriber: PRCV_IFCAP_06_SU_IB_PROC
+
+          Receiving Application: PRCV_IFCAP_IVSV
+          Message Type (770.11): ACK   Event Type: P03
+
+          No Subscriber Errors Found.
+__________________________________________________________________________
+Event Driver: MHV MFN-Z01 Event Driver
+
+Sending Application: MHV VISTA
+Version: 2.4   Message Type(770.3): MFN   Event Type: Z01
+
+Event Driver Error Summary:
+
+No Event Driver Errors Found.
+          ***************************************
+          For Subscriber: MHV MFN-Z01 Subscriber
+
+          Receiving Application: MHV EVAULT
+          Message Type (770.11): MFN   Event Type: Z01
+
+          1. Message Type must be an appropriate response/acknowledgement.
+__________________________________________________________________________
+Event Driver: MHV QBP-Q13 Event Driver
+
+Sending Application: MHV EVAULT
+Version: 2.4   Message Type(770.3): QBP   Event Type: Q13
+
+Event Driver Error Summary:
+
+No Event Driver Errors Found.
+          ***************************************
+          For Subscriber: MHV QBP-Q13 Subscriber
+
+          Receiving Application: MHV VISTA
+          Message Type (770.11): RTB   Event Type: K13
+
+          No Subscriber Errors Found.
+__________________________________________________________________________
+Event Driver: MHV OMP-O09 Event Driver
+
+Sending Application: MHV EVAULT
+Version: 2.4   Message Type(770.3): OMP   Event Type: O09
+
+Event Driver Error Summary:
+
+No Event Driver Errors Found.
+          ***************************************
+          For Subscriber: MHV OMP-O09 Subscriber
+
+          Receiving Application: MHV VISTA
+          Message Type (770.11): ORP   Event Type: O10
+
+          1. Message Type must be an appropriate response/acknowledgement.
+__________________________________________________________________________
+Event Driver: IBB PFSS ADT-A05 SERVER
+
+Sending Application: IBB PFSS SENDING
+Version: 2.4   Message Type(770.3): ADT   Event Type: A05
+
+Event Driver Error Summary:
+
+No Event Driver Errors Found.
+          ***************************************
+          For Subscriber: IBB PFSS ADT-A05 CLIENT
+
+          Receiving Application: IBB PFSS RECV
+          Message Type (770.11): ADT   Event Type: A05
+
+          1. Message Type must be an appropriate response/acknowledgement.
+__________________________________________________________________________
+Event Driver: IBB PFSS ADT-A04 SERVER
+
+Sending Application: IBB PFSS SENDING
+Version: 2.4   Message Type(770.3): ADT   Event Type: A04
+
+Event Driver Error Summary:
+
+No Event Driver Errors Found.
+          ***************************************
+          For Subscriber: IBB PFSS ADT-A04 CLIENT
+
+          Receiving Application: IBB PFSS RECV
+          Message Type (770.11): ADT   Event Type: A04
+
+          1. Message Type must be an appropriate response/acknowledgement.
+__________________________________________________________________________
+Event Driver: PRC_IFCAP_01_EV_AAC
+
+Sending Application: VISTA_IFCAP
+Version: 2.4   Message Type(770.3): MFN   Event Type: M01
+
+Event Driver Error Summary:
+
+No Event Driver Errors Found.
+          ***************************************
+          For Subscriber: PRC_IFCAP_01_SU_AAC
+
+          Receiving Application: AAC_FPDS
+          Message Type (770.11): MFK   Event Type: M01
+
+          No Subscriber Errors Found.
+__________________________________________________________________________
+Event Driver: BPS ECMESV1 NTE
+
+Sending Application: ECME VISTA
+Version: 2.4   Message Type(770.3): ORU   Event Type: R01
+
+Event Driver Error Summary:
+
+No Event Driver Errors Found.
+          ***************************************
+          For Subscriber: BPS ECMECL1 NTE
+
+          Receiving Application: VITRIA NC
+          Message Type (770.11): ORF   Event Type: R02
+
+          No Subscriber Errors Found.
+__________________________________________________________________________
+Event Driver: IB PFSS DFT-P03 SERVER
+
+Sending Application: IB PFSS SENDING
+Version: 2.4   Message Type(770.3): DFT   Event Type: P03
+
+Event Driver Error Summary:
+
+No Event Driver Errors Found.
+          ***************************************
+          For Subscriber: IB PFSS DFT-P03 CLIENT
+
+          Receiving Application: IB PFSS RECV
+          Message Type (770.11): DFT   Event Type: P03
+
+          1. Message Type must be an appropriate response/acknowledgement.
+__________________________________________________________________________
+Event Driver: TIUHL7 EXAMPLE MDM EVENT
+
+Sending Application: TIUHL7 EX SENDING APP
+Version: 2.4   Message Type(770.3): MDM   Event Type: T02
+
+Event Driver Error Summary:
+
+No Event Driver Errors Found.
+__________________________________________________________________________
+Event Driver: XUMF QUERY EVENT
+
+Sending Application: VETS DATA
+Version: 2.4   Message Type(770.3): MFQ   Event Type: M01
+
+Event Driver Error Summary:
+
+No Event Driver Errors Found.
+          ***************************************
+          For Subscriber: XUMF QUERY HANDLER
+
+          Receiving Application: XUMF DATA
+          Message Type (770.11): MFR   Event Type: M01
+
+          No Subscriber Errors Found.
+__________________________________________________________________________
+Event Driver: XUMF MD5 EVENT
+
+Sending Application: VETS MD5
+Version: 2.4   Message Type(770.3): MFQ   Event Type: M01
+
+Event Driver Error Summary:
+
+No Event Driver Errors Found.
+          ***************************************
+          For Subscriber: XUMF MD5 HANDLER
+
+          Receiving Application: XUMF MD5
+          Message Type (770.11): MFR   Event Type: M01
+
+          No Subscriber Errors Found.
+__________________________________________________________________________
+Event Driver: XUMF VETS UPDATE
+
+Sending Application: VETS UPDATE
+Version: 2.4   Message Type(770.3): MFN   Event Type: M01
+
+Event Driver Error Summary:
+
+No Event Driver Errors Found.
+          ***************************************
+          For Subscriber: XUMF UPDATE
+
+          Receiving Application: XUMF UPDATE
+          Message Type (770.11): MFK   Event Type: M01
+
+          No Subscriber Errors Found.
+__________________________________________________________________________
+Event Driver: ORRDI EVENT
+
+Sending Application: OR RDI SENDER
+Version: 2.3.1   Message Type(770.3): SPQ   Event Type: Q08
+
+Event Driver Error Summary:
+
+No Event Driver Errors Found.
+          ***************************************
+          For Subscriber: ORRDI SUBSCRIBER
+
+          Receiving Application: OR RDI RECEIVER
+          Message Type (770.11): TBR   Event Type: R08
+
+          No Subscriber Errors Found.
+__________________________________________________________________________
+Event Driver: YS MHA A08 EVENT
+
+Sending Application: YS MHA
+Version: 2.3.1   Message Type(770.3): ADT   Event Type: A08
+
+Event Driver Error Summary:
+
+No Event Driver Errors Found.
+          ***************************************
+          For Subscriber: YS MHA A08 CLIENT
+
+          Receiving Application: YS MHA
+          Message Type (770.11): ACK   Event Type: A08
+
+          No Subscriber Errors Found.
+__________________________________________________________________________
+Event Driver: DG HOME TELEHEALTH ADT-A04 SERVER
+
+Sending Application: DG HOME TELEHEALTH
+Version: 2.4   Message Type(770.3): ADT   Event Type: A04
+
+Event Driver Error Summary:
+
+No Event Driver Errors Found.
+          ***************************************
+          For Subscriber: DG HOME TELEHEALTH ADT-A04 CLIENT
+
+          Receiving Application: HTAPPL
+          Message Type (770.11): ACK   Event Type: A04
+
+          No Subscriber Errors Found.
+__________________________________________________________________________
+Event Driver: DG HOME TELEHEALTH ADT-A03 SERVER
+
+Sending Application: DG HOME TELEHEALTH
+Version: 2.4   Message Type(770.3): ADT   Event Type: A03
+
+Event Driver Error Summary:
+
+No Event Driver Errors Found.
+          ***************************************
+          For Subscriber: DG HOME TELEHEALTH ADT-A03 CLIENT
+
+          Receiving Application: HTAPPL
+          Message Type (770.11): ACK   Event Type: A03
+
+          No Subscriber Errors Found.
+__________________________________________________________________________
+Event Driver: RA SCIMAGE TCP SERVER RPT
+
+Sending Application: RA-SCIMAGE-TCP
+Version: 2.3   Message Type(770.3): ORU   Event Type: R01
+
+Event Driver Error Summary:
+
+No Event Driver Errors Found.
+          ***************************************
+          For Subscriber: RA SCIMAGE TCP REPORT
+
+          Receiving Application: RA-VOICE-SERVER
+          Message Type (770.11): ACK   Event Type: R01
+
+          No Subscriber Errors Found.
+__________________________________________________________________________
+Event Driver: MHV RTB-K13 Event Driver
+
+Sending Application: MHV VISTA
+Version: 2.4   Message Type(770.3): RTB   Event Type: K13
+
+Event Driver Error Summary:
+
+1. For Event Driver-Message Type cannot be an acknowledgement.
+          ***************************************
+          For Subscriber: MHV RTB-K13 Subscriber
+
+          Receiving Application: MHV EVAULT
+          Message Type (770.11): RTB   Event Type: K13
+
+          No Subscriber Errors Found.
+__________________________________________________________________________
+Event Driver: MHV ORP-O10 Event Driver
+
+Sending Application: MHV VISTA
+Version: 2.4   Message Type(770.3): ORP   Event Type: O10
+
+Event Driver Error Summary:
+
+No Event Driver Errors Found.
+          ***************************************
+          For Subscriber: MHV ORP-O10 Subscriber
+
+          Receiving Application: MHV EVAULT
+          Message Type (770.11): ORP   Event Type: O10
+
+          1. Message Type must be an appropriate response/acknowledgement.
+__________________________________________________________________________
+Event Driver: LA7UI ORM-O01 EVENT 2.2
+
+Sending Application: LA7LAB
+Version: 2.2   Message Type(770.3): ORM   Event Type: O01
+
+Event Driver Error Summary:
+
+No Event Driver Errors Found.
+          ***************************************
+          For Subscriber: LA7UI ORM-O01 SUBS 2.2
+
+          Receiving Application: LA7UI1
+          Message Type (770.11): ORR   Event Type: O02
+
+          No Subscriber Errors Found.
+__________________________________________________________________________
+Event Driver: LA7UI1 ORU-R01 EVENT 2.2
+
+Sending Application: LA7UI1
+Version: 2.2   Message Type(770.3): ORU   Event Type: R01
+
+Event Driver Error Summary:
+
+No Event Driver Errors Found.
+          ***************************************
+          For Subscriber: LA7UI ORU-R01 SUBS 2.2
+
+          Receiving Application: LA7LAB
+          Message Type (770.11): ACK   Event Type: R01
+
+          No Subscriber Errors Found.
+__________________________________________________________________________
+Event Driver: LA7UI2 ORU-R01 EVENT 2.2
+
+Sending Application: LA7UI2
+Version: 2.2   Message Type(770.3): ORU   Event Type: R01
+
+Event Driver Error Summary:
+
+No Event Driver Errors Found.
+          ***************************************
+          For Subscriber: LA7UI ORU-R01 SUBS 2.2
+
+          Receiving Application: LA7LAB
+          Message Type (770.11): ACK   Event Type: R01
+
+          No Subscriber Errors Found.
+__________________________________________________________________________
+Event Driver: LA7UI3 ORU-R01 EVENT 2.2
+
+Sending Application: LA7UI3
+Version: 2.2   Message Type(770.3): ORU   Event Type: R01
+
+Event Driver Error Summary:
+
+No Event Driver Errors Found.
+          ***************************************
+          For Subscriber: LA7UI ORU-R01 SUBS 2.2
+
+          Receiving Application: LA7LAB
+          Message Type (770.11): ACK   Event Type: R01
+
+          No Subscriber Errors Found.
+__________________________________________________________________________
+Event Driver: LA7UI4 ORU-R01 EVENT 2.2
+
+Sending Application: LA7UI4
+Version: 2.2   Message Type(770.3): ORU   Event Type: R01
+
+Event Driver Error Summary:
+
+No Event Driver Errors Found.
+          ***************************************
+          For Subscriber: LA7UI ORU-R01 SUBS 2.2
+
+          Receiving Application: LA7LAB
+          Message Type (770.11): ACK   Event Type: R01
+
+          No Subscriber Errors Found.
+__________________________________________________________________________
+Event Driver: LA7UI5 ORU-R01 EVENT 2.2
+
+Sending Application: LA7UI5
+Version: 2.2   Message Type(770.3): ORU   Event Type: R01
+
+Event Driver Error Summary:
+
+No Event Driver Errors Found.
+          ***************************************
+          For Subscriber: LA7UI ORU-R01 SUBS 2.2
+
+          Receiving Application: LA7LAB
+          Message Type (770.11): ACK   Event Type: R01
+
+          No Subscriber Errors Found.
+__________________________________________________________________________
+Event Driver: LA7UI6 ORU-R01 EVENT 2.2
+
+Sending Application: LA7UI6
+Version: 2.2   Message Type(770.3): ORU   Event Type: R01
+
+Event Driver Error Summary:
+
+No Event Driver Errors Found.
+          ***************************************
+          For Subscriber: LA7UI ORU-R01 SUBS 2.2
+
+          Receiving Application: LA7LAB
+          Message Type (770.11): ACK   Event Type: R01
+
+          No Subscriber Errors Found.
+__________________________________________________________________________
+Event Driver: LA7UI7 ORU-R01 EVENT 2.2
+
+Sending Application: LA7UI7
+Version: 2.2   Message Type(770.3): ORU   Event Type: R01
+
+Event Driver Error Summary:
+
+No Event Driver Errors Found.
+          ***************************************
+          For Subscriber: LA7UI ORU-R01 SUBS 2.2
+
+          Receiving Application: LA7LAB
+          Message Type (770.11): ACK   Event Type: R01
+
+          No Subscriber Errors Found.
+__________________________________________________________________________
+Event Driver: LA7UI8 ORU-R01 EVENT 2.2
+
+Sending Application: LA7UI8
+Version: 2.2   Message Type(770.3): ORU   Event Type: R01
+
+Event Driver Error Summary:
+
+No Event Driver Errors Found.
+          ***************************************
+          For Subscriber: LA7UI ORU-R01 SUBS 2.2
+
+          Receiving Application: LA7LAB
+          Message Type (770.11): ACK   Event Type: R01
+
+          No Subscriber Errors Found.
+__________________________________________________________________________
+Event Driver: LA7UI9 ORU-R01 EVENT 2.2
+
+Sending Application: LA7UI9
+Version: 2.2   Message Type(770.3): ORU   Event Type: R01
+
+Event Driver Error Summary:
+
+No Event Driver Errors Found.
+          ***************************************
+          For Subscriber: LA7UI ORU-R01 SUBS 2.2
+
+          Receiving Application: LA7LAB
+          Message Type (770.11): ACK   Event Type: R01
+
+          No Subscriber Errors Found.
+__________________________________________________________________________
+Event Driver: LA7UI10 ORU-R01 EVENT 2.2
+
+Sending Application: LA7UI10
+Version: 2.2   Message Type(770.3): ORU   Event Type: R01
+
+Event Driver Error Summary:
+
+No Event Driver Errors Found.
+          ***************************************
+          For Subscriber: LA7UI ORU-R01 SUBS 2.2
+
+          Receiving Application: LA7LAB
+          Message Type (770.11): ACK   Event Type: R01
+
+          No Subscriber Errors Found.
+__________________________________________________________________________
+Event Driver: XUS NPI EXTRACT INPUT
+
+Sending Application: NPI FSC
+Version: 2.4   Message Type(770.3): ORM   Event Type: O01
+
+Event Driver Error Summary:
+
+No Event Driver Errors Found.
+          ***************************************
+          For Subscriber: XUS NPI EXTRACT RESPONSE
+
+          Receiving Application: NPI VISTA
+          Message Type (770.11): ORR   Event Type: O02
+
+          No Subscriber Errors Found.
+__________________________________________________________________________
+Event Driver: TIUHL7 HTAPPL ACK EVT
+
+Sending Application: 
+Version: 2.4   Message Type(770.3): ACK   Event Type: 
+
+Event Driver Error Summary:
+
+1. Missing Required Sending Application.
+2. For Event Driver-Message Type cannot be an acknowledgement.
+3. Broken pointer to Event Type (file 779.001).
+4. Event type is required for versions greater than 2.1.
+          ***************************************
+          For Subscriber: TIUHL7 HTAPPL ACK SUB
+
+          Receiving Application: HTAPPL
+          Message Type (770.11): ACK   Event Type: 
+
+          No Subscriber Errors Found.
+__________________________________________________________________________
+Event Driver: MHVSM QRY-A19 Event Driver
+
+Sending Application: MHV SM
+Version: 2.4   Message Type(770.3): QRY   Event Type: A19
+
+Event Driver Error Summary:
+
+No Event Driver Errors Found.
+          ***************************************
+          For Subscriber: MHVSM QRY-A19 Subscriber
+
+          Receiving Application: MHV VISTA
+          Message Type (770.11): ADR   Event Type: A19
+
+          No Subscriber Errors Found.
+__________________________________________________________________________
+Event Driver: MHVSM MDM-T02 Event Driver
+
+Sending Application: MHV SM
+Version: 2.4   Message Type(770.3): MDM   Event Type: T02
+
+Event Driver Error Summary:
+
+No Event Driver Errors Found.
+          ***************************************
+          For Subscriber: MHVSM MDM-T02 Subscriber
+
+          Receiving Application: MHV TIU
+          Message Type (770.11): ACK   Event Type: T02
+
+          No Subscriber Errors Found.
+__________________________________________________________________________
+Event Driver: MHVSM ADR-A19 Event Driver 
+
+Sending Application: MHV VISTA
+Version: 2.4   Message Type(770.3): ADR   Event Type: A19
+
+Event Driver Error Summary:
+
+1. For Event Driver-Message Type cannot be an acknowledgement.
+          ***************************************
+          For Subscriber: MHVSM ADR-A19 Subscriber
+
+          Receiving Application: MHV VISTA
+          Message Type (770.11): QRY   Event Type: A19
+
+          1. Message Type must be an appropriate response/acknowledgement.
+__________________________________________________________________________
+Event Driver: MHVSM QBP-Q11 Event Driver
+
+Sending Application: MHV SM
+Version: 2.4   Message Type(770.3): QBP   Event Type: Q11
+
+Event Driver Error Summary:
+
+No Event Driver Errors Found.
+          ***************************************
+          For Subscriber: MHVSM QBP-Q11 Subscriber
+
+          Receiving Application: MHV VISTA
+          Message Type (770.11): RSP   Event Type: K11
+
+          No Subscriber Errors Found.
+__________________________________________________________________________
+Event Driver: MHVSM RSP-K11 Event Driver
+
+Sending Application: MHV VISTA
+Version: 2.4   Message Type(770.3): RSP   Event Type: K11
+
+Event Driver Error Summary:
+
+1. For Event Driver-Message Type cannot be an acknowledgement.
+          ***************************************
+          For Subscriber: MHVSM RSP-K11 Subscriber
+
+          Receiving Application: MHV SM
+          Message Type (770.11): RSP   Event Type: K11
+
+          No Subscriber Errors Found.
+__________________________________________________________________________
+Event Driver: VBECS OMG SERVER
+
+Sending Application: VBECS
+Version: 2.4   Message Type(770.3): OMG   Event Type: O19
+
+Event Driver Error Summary:
+
+No Event Driver Errors Found.
+          ***************************************
+          For Subscriber: VBECS OMG CLIENT
+
+          Receiving Application: 
+          Message Type (770.11): ORG   Event Type: O20
+
+          1. Missing Required Receiving Application.
+__________________________________________________________________________
+Event Driver: VBECS ADT-A08 SERVER
+
+Sending Application: VAFC PIMS
+Version: 2.3   Message Type(770.3): ADT   Event Type: A08
+
+Event Driver Error Summary:
+
+No Event Driver Errors Found.
+          ***************************************
+          For Subscriber: VBECS ADT-A08 CLIENT
+
+          Receiving Application: VBECS ADT
+          Message Type (770.11): ACK   Event Type: A08
+
+          No Subscriber Errors Found.
+__________________________________________________________________________
+Event Driver: VBECS ADT-A40 SERVER
+
+Sending Application: MPIF TRIGGER
+Version: 2.4   Message Type(770.3): ADT   Event Type: A40
+
+Event Driver Error Summary:
+
+No Event Driver Errors Found.
+          ***************************************
+          For Subscriber: VBECS ADT-A40 CLIENT
+
+          Receiving Application: VBECS ADT
+          Message Type (770.11): ACK   Event Type: A40
+
+          No Subscriber Errors Found.
+__________________________________________________________________________
+Event Driver: OR OMG SERVER
+
+Sending Application: OERR
+Version: 2.4   Message Type(770.3): OMG   Event Type: O19
+
+Event Driver Error Summary:
+
+No Event Driver Errors Found.
+          ***************************************
+          For Subscriber: OR OMG CLIENT
+
+          Receiving Application: VBECS
+          Message Type (770.11): ORG   Event Type: O20
+
+          No Subscriber Errors Found.
+__________________________________________________________________________
+Event Driver: LA7 LAB RESULTS AVAILABLE (EVN)
+
+Sending Application: LA7LAB
+Version: 2.4   Message Type(770.3): ORU   Event Type: R01
+
+Event Driver Error Summary:
+
+No Event Driver Errors Found.
+          ***************************************
+          For Subscriber: LA7 LAB RESULTS TO HDR (SUB)
+
+          Receiving Application: LA7HDR
+          Message Type (770.11): ACK   Event Type: R01
+
+          No Subscriber Errors Found.
+__________________________________________________________________________
+Event Driver: XUMF 04 MFN
+
+Sending Application: XUMF 04 MFN
+Version: 2.3   Message Type(770.3): MFN   Event Type: M05
+
+Event Driver Error Summary:
+
+No Event Driver Errors Found.
+          ***************************************
+          For Subscriber: XUMF 04 MFK
+
+          Receiving Application: XUMF 04 MFK
+          Message Type (770.11): MFK   Event Type: M05
+
+          No Subscriber Errors Found.
+__________________________________________________________________________
+Event Driver: XUMF 04 MFQ
+
+Sending Application: XUMF 04 MFQ
+Version: 2.3   Message Type(770.3): MFQ   Event Type: M05
+
+Event Driver Error Summary:
+
+No Event Driver Errors Found.
+          ***************************************
+          For Subscriber: XUMF 04 MFR
+
+          Receiving Application: XUMF 04 MFR
+          Message Type (770.11): MFR   Event Type: M05
+
+          No Subscriber Errors Found.
+__________________________________________________________________________
+Event Driver: PRS B02 SERVER HLO MPI
+
+Sending Application: 
+Version: 2.4   Message Type(770.3): PMU   Event Type: B02
+
+Event Driver Error Summary:
+
+1. Missing Required Sending Application.
+          ***************************************
+          For Subscriber: PRS B02 CLIENT HLO MPI
+
+          Receiving Application: 
+          Message Type (770.11): ACK   Event Type: B02
+
+          1. Missing Required Receiving Application.
+__________________________________________________________________________
+Event Driver: PRS B02 SERVER
+
+Sending Application: 
+Version: 2.4   Message Type(770.3): PMU   Event Type: B02
+
+Event Driver Error Summary:
+
+1. Missing Required Sending Application.
+          ***************************************
+          For Subscriber: PRS B02 CLIENT
+
+          Receiving Application: 
+          Message Type (770.11): ACK   Event Type: B02
+
+          1. Missing Required Receiving Application.
+__________________________________________________________________________
+Event Driver: PRS B01 SERVER HLO MPI
+
+Sending Application: 
+Version: 2.4   Message Type(770.3): PMU   Event Type: B01
+
+Event Driver Error Summary:
+
+1. Missing Required Sending Application.
+          ***************************************
+          For Subscriber: PRS B01 CLIENT HLO MPI
+
+          Receiving Application: 
+          Message Type (770.11): ACK   Event Type: B01
+
+          1. Missing Required Receiving Application.
+__________________________________________________________________________
+Event Driver: PRS B01 SERVER
+
+Sending Application: 
+Version: 2.4   Message Type(770.3): PMU   Event Type: B01
+
+Event Driver Error Summary:
+
+1. Missing Required Sending Application.
+          ***************************************
+          For Subscriber: PRS B01 CLIENT
+
+          Receiving Application: 
+          Message Type (770.11): ACK   Event Type: B01
+
+          1. Missing Required Receiving Application.
+__________________________________________________________________________
+Event Driver: XUPS B01 SERVER
+
+Sending Application: XUPS APP
+Version: 2.4   Message Type(770.3): PMU   Event Type: B01
+
+Event Driver Error Summary:
+
+No Event Driver Errors Found.
+          ***************************************
+          For Subscriber: XUPS B01 CLIENT
+
+          Receiving Application: XUPS APP
+          Message Type (770.11): ACK   Event Type: B01
+
+          No Subscriber Errors Found.
+__________________________________________________________________________
+Event Driver: XUPS B02 SERVER
+
+Sending Application: XUPS APP
+Version: 2.4   Message Type(770.3): PMU   Event Type: B02
+
+Event Driver Error Summary:
+
+No Event Driver Errors Found.
+          ***************************************
+          For Subscriber: XUPS B02 CLIENT
+
+          Receiving Application: XUPS APP
+          Message Type (770.11): ACK   Event Type: B02
+
+          No Subscriber Errors Found.
+__________________________________________________________________________
+Event Driver: XUPS B01 SERVER HLO MPI
+
+Sending Application: XUPS APP
+Version: 2.4   Message Type(770.3): PMU   Event Type: B01
+
+Event Driver Error Summary:
+
+No Event Driver Errors Found.
+          ***************************************
+          For Subscriber: XUPS B01 CLIENT HLO MPI
+
+          Receiving Application: XUPS APP
+          Message Type (770.11): ACK   Event Type: B01
+
+          No Subscriber Errors Found.
+__________________________________________________________________________
+Event Driver: XUPS B02 SERVER HLO MPI
+
+Sending Application: XUPS APP
+Version: 2.4   Message Type(770.3): PMU   Event Type: B02
+
+Event Driver Error Summary:
+
+No Event Driver Errors Found.
+          ***************************************
+          For Subscriber: XUPS B02 CLIENT HLO MPI
+
+          Receiving Application: XUPS APP
+          Message Type (770.11): ACK   Event Type: B02
+
+          No Subscriber Errors Found.
+__________________________________________________________________________
+Event Driver: MDHL Device Server
+
+Sending Application: MDHL-IN
+Version: 2.4   Message Type(770.3): ORU   Event Type: R01
+
+Event Driver Error Summary:
+
+No Event Driver Errors Found.
+          ***************************************
+          For Subscriber: MDHL Device Client
+
+          Receiving Application: MDHL-OUT
+          Message Type (770.11): ACK   Event Type: R01
+
+          No Subscriber Errors Found.
+__________________________________________________________________________
+Event Driver: MDC CPAN VS
+
+Sending Application: MDC CPAN
+Version: 2.4   Message Type(770.3): ADT   Event Type: A01
+
+Event Driver Error Summary:
+
+No Event Driver Errors Found.
+          ***************************************
+          For Subscriber: MDC ADT_A01 OUTBOUND
+
+          Receiving Application: MDC ADT OUTBOUND
+          Message Type (770.11): ADT   Event Type: A01
+
+          1. Message Type must be an appropriate response/acknowledgement.
+__________________________________________________________________________
+Event Driver: MDC CPTP VS
+
+Sending Application: MDC CPTP
+Version: 2.4   Message Type(770.3): ADT   Event Type: A02
+
+Event Driver Error Summary:
+
+No Event Driver Errors Found.
+          ***************************************
+          For Subscriber: MDC ADT_A02 OUTBOUND
+
+          Receiving Application: MDC ADT OUTBOUND
+          Message Type (770.11): ADT   Event Type: A02
+
+          1. Message Type must be an appropriate response/acknowledgement.
+__________________________________________________________________________
+Event Driver: MDC CPDE VS
+
+Sending Application: MDC CPDE
+Version: 2.4   Message Type(770.3): ADT   Event Type: A03
+
+Event Driver Error Summary:
+
+No Event Driver Errors Found.
+          ***************************************
+          For Subscriber: MDC ADT_A03 OUTBOUND
+
+          Receiving Application: MDC ADT OUTBOUND
+          Message Type (770.11): ADT   Event Type: A03
+
+          1. Message Type must be an appropriate response/acknowledgement.
+__________________________________________________________________________
+Event Driver: MDC CPUPI VS
+
+Sending Application: MDC CPUPI
+Version: 2.4   Message Type(770.3): ADT   Event Type: A08
+
+Event Driver Error Summary:
+
+No Event Driver Errors Found.
+__________________________________________________________________________
+Event Driver: MDC CPCAN VS
+
+Sending Application: MDC CPCAN
+Version: 2.4   Message Type(770.3): ADT   Event Type: A11
+
+Event Driver Error Summary:
+
+No Event Driver Errors Found.
+          ***************************************
+          For Subscriber: MDC ADT_A11 OUTBOUND
+
+          Receiving Application: MDC ADT OUTBOUND
+          Message Type (770.11): ADT   Event Type: A11
+
+          1. Message Type must be an appropriate response/acknowledgement.
+__________________________________________________________________________
+Event Driver: MDC CPCDE VS
+
+Sending Application: MDC CPCDE
+Version: 2.4   Message Type(770.3): ADT   Event Type: A13
+
+Event Driver Error Summary:
+
+No Event Driver Errors Found.
+          ***************************************
+          For Subscriber: MDC ADT_A13 OUTBOUND
+
+          Receiving Application: MDC ADT OUTBOUND
+          Message Type (770.11): ADT   Event Type: A13
+
+          1. Message Type must be an appropriate response/acknowledgement.
+__________________________________________________________________________
+Event Driver: MDC CPCT VS
+
+Sending Application: MDC CPCT
+Version: 2.4   Message Type(770.3): ADT   Event Type: A12
+
+Event Driver Error Summary:
+
+No Event Driver Errors Found.
+          ***************************************
+          For Subscriber: MDC ADT_A12 OUTBOUND
+
+          Receiving Application: MDC ADT OUTBOUND
+          Message Type (770.11): ADT   Event Type: A12
+
+          1. Message Type must be an appropriate response/acknowledgement.
+__________________________________________________________________________
+Event Driver: RA REG 2.4
+
+Sending Application: RA-VOICE-SERVER
+Version: 2.4   Message Type(770.3): ORM   Event Type: O01
+
+Event Driver Error Summary:
+
+No Event Driver Errors Found.
+__________________________________________________________________________
+Event Driver: RA EXAMINED 2.4
+
+Sending Application: RA-VOICE-SERVER
+Version: 2.4   Message Type(770.3): ORM   Event Type: O01
+
+Event Driver Error Summary:
+
+No Event Driver Errors Found.
+__________________________________________________________________________
+Event Driver: RA CANCEL 2.4
+
+Sending Application: RA-VOICE-SERVER
+Version: 2.4   Message Type(770.3): ORM   Event Type: O01
+
+Event Driver Error Summary:
+
+No Event Driver Errors Found.
+__________________________________________________________________________
+Event Driver: RA RPT 2.4
+
+Sending Application: RA-VOICE-SERVER
+Version: 2.4   Message Type(770.3): ORU   Event Type: R01
+
+Event Driver Error Summary:
+
+No Event Driver Errors Found.
+__________________________________________________________________________
+Event Driver: MAG CPACS A01
+
+Sending Application: MAG VISTA IMGNG
+Version: 2.4   Message Type(770.3): ADT   Event Type: A01
+
+Event Driver Error Summary:
+
+No Event Driver Errors Found.
+          ***************************************
+          For Subscriber: MAG CPACS A01 SUBS
+
+          Receiving Application: MAG COMRCL PACS
+          Message Type (770.11): ACK   Event Type: A01
+
+          No Subscriber Errors Found.
+__________________________________________________________________________
+Event Driver: MAG CPACS A02
+
+Sending Application: MAG VISTA IMGNG
+Version: 2.4   Message Type(770.3): ADT   Event Type: A02
+
+Event Driver Error Summary:
+
+No Event Driver Errors Found.
+          ***************************************
+          For Subscriber: MAG CPACS A02 SUBS
+
+          Receiving Application: MAG COMRCL PACS
+          Message Type (770.11): ACK   Event Type: A02
+
+          No Subscriber Errors Found.
+__________________________________________________________________________
+Event Driver: MAG CPACS A03
+
+Sending Application: MAG VISTA IMGNG
+Version: 2.4   Message Type(770.3): ADT   Event Type: A03
+
+Event Driver Error Summary:
+
+No Event Driver Errors Found.
+          ***************************************
+          For Subscriber: MAG CPACS A03 SUBS
+
+          Receiving Application: MAG COMRCL PACS
+          Message Type (770.11): ACK   Event Type: A03
+
+          No Subscriber Errors Found.
+__________________________________________________________________________
+Event Driver: MAG CPACS A11
+
+Sending Application: MAG VISTA IMGNG
+Version: 2.4   Message Type(770.3): ADT   Event Type: A11
+
+Event Driver Error Summary:
+
+No Event Driver Errors Found.
+          ***************************************
+          For Subscriber: MAG CPACS A11 SUBS
+
+          Receiving Application: MAG COMRCL PACS
+          Message Type (770.11): ACK   Event Type: A11
+
+          No Subscriber Errors Found.
+__________________________________________________________________________
+Event Driver: MAG CPACS A12
+
+Sending Application: MAG VISTA IMGNG
+Version: 2.4   Message Type(770.3): ADT   Event Type: A12
+
+Event Driver Error Summary:
+
+No Event Driver Errors Found.
+          ***************************************
+          For Subscriber: MAG CPACS A12 SUBS
+
+          Receiving Application: MAG COMRCL PACS
+          Message Type (770.11): ACK   Event Type: A12
+
+          No Subscriber Errors Found.
+__________________________________________________________________________
+Event Driver: MAG CPACS A13
+
+Sending Application: MAG VISTA IMGNG
+Version: 2.4   Message Type(770.3): ADT   Event Type: A13
+
+Event Driver Error Summary:
+
+No Event Driver Errors Found.
+          ***************************************
+          For Subscriber: MAG CPACS A13 SUBS
+
+          Receiving Application: MAG COMRCL PACS
+          Message Type (770.11): ACK   Event Type: A13
+
+          No Subscriber Errors Found.
+
+
+   EA     Application Edit
+   EP     Protocol Edit
+   EL     Link Edit
+   VI     Validate Interfaces
+          Reports ...
+
+
+You have PENDING ALERTS
+          Enter  "VA to jump to VIEW ALERTS option
+
+
+[7mYou've got PRIORITY mail!
+
+[27m
+Select Interface Developer Options Option: 
+
+
+
+          Event monitoring menu ...
+          Systems Link Monitor
+          Filer and Link Management Options ...
+          Message Management Options ...
+          Interface Developer Options ...
+          Site Parameter Edit
+
+
+You have PENDING ALERTS
+          Enter  "VA to jump to VIEW ALERTS option
+
+
+[7mYou've got PRIORITY mail!
+
+[27m
+Select HL7 Main Menu Option: 
+
+
+[7mYou've got PRIORITY mail!
+
+[27m
+
+Do you really want to halt? YES// 
+
+
+Logged out at Dec 03, 2012 9:23 am
