@@ -1,0 +1,13 @@
+service hl7tcp-vista
+{
+  port        = 12230
+  socket_type = stream
+  protocol    = tcp
+  type        = UNLISTED
+  user        = jasonli
+  server      = /home/jasonli/VistA-FOIA/latest/xinetd/hl7-tcp-broker
+  wait        = no
+  disable     = no
+  instances   = 10
+  groups      = yes
+}

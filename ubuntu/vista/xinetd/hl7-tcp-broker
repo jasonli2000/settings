@@ -1,0 +1,19 @@
+#!/bin/bash
+#  This is a file to run RPCBroker as a Linux service
+export HOME='/home/jasonli'
+cd ${HOME}/VistA-FOIA/latest/xinetd/
+. config/gtm_env.conf
+
+if [ ! -d log ] ; then
+  mkdir log
+fi
+
+LOG=log/hl7tcp.log
+
+echo "$$ Job begin `date`"                                      >>  ${LOG}
+echo "$$  ${gtm_dist}/mumps -run GTMLNX^HLCSGTM"                >>  ${LOG}
+
+${gtm_dist}/mumps -run GTMLNX^HLCSGTM                          2>>  ${LOG}
+echo "$$  RPCBroker stopped with exit code $?"                  >>  ${LOG}
+echo "$$ Job ended `date`"
+exit $?

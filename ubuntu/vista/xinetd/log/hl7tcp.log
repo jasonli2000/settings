@@ -1,0 +1,68 @@
+12238 Job begin Tue Dec 18 13:25:56 EST 2012
+12238  /opt/gtm/v5500/mumps -run GTMLNX^HLCSGTM
+	 S @%ZTERRT@("J")=$J_"^"_$ZC(%GETJPI,0,"PRCNAM")_"^"_$ZC(%GETJPI,0,"USERNAME")_"^"_%ZTER11I_"^"_$ZC(%SYSFAO,"!XL",$J),@%ZTERRT@("I")=$IO_"^"_$ZA_"^"_$ZB_"^"_$ZIO K %ZTER11I
+	                          ^-----
+		At column 27, line 4, source module /home/jasonli/VistA-FOIA/latest/databases/routines/_ZTER1.m
+%GTM-E-FNOTONSYS, Function or special variable is not supported by this operating system
+	 S @%ZTERRT@("J")=$J_"^"_$ZC(%GETJPI,0,"PRCNAM")_"^"_$ZC(%GETJPI,0,"USERNAME")_"^"_%ZTER11I_"^"_$ZC(%SYSFAO,"!XL",$J),@%ZTERRT@("I")=$IO_"^"_$ZA_"^"_$ZB_"^"_$ZIO K %ZTER11I
+	                                                      ^-----
+		At column 55, line 4, source module /home/jasonli/VistA-FOIA/latest/databases/routines/_ZTER1.m
+%GTM-E-FNOTONSYS, Function or special variable is not supported by this operating system
+	 S @%ZTERRT@("J")=$J_"^"_$ZC(%GETJPI,0,"PRCNAM")_"^"_$ZC(%GETJPI,0,"USERNAME")_"^"_%ZTER11I_"^"_$ZC(%SYSFAO,"!XL",$J),@%ZTERRT@("I")=$IO_"^"_$ZA_"^"_$ZB_"^"_$ZIO K %ZTER11I
+	                                                                                                 ^-----
+		At column 98, line 4, source module /home/jasonli/VistA-FOIA/latest/databases/routines/_ZTER1.m
+%GTM-E-FNOTONSYS, Function or special variable is not supported by this operating system
+	 S @%ZTERRT@("ZH")=$TR($ZH,",","^")
+	                        ^-----
+		At column 25, line 5, source module /home/jasonli/VistA-FOIA/latest/databases/routines/_ZTER1.m
+%GTM-E-INVSVN, Invalid special variable name
+	 S %ZTER111="%" F  D  S %ZTER111=$ZSORT(@%ZTER111) Q:%ZTER111=""  ;Code from DEC
+	                                  ^-----
+		At column 35, line 6, source module /home/jasonli/VistA-FOIA/latest/databases/routines/_ZTER1.m
+%GTM-E-INVFCN, Invalid function name
+12238  RPCBroker stopped with exit code 0
+12460 Job begin Tue Dec 18 13:30:18 EST 2012
+12460  /opt/gtm/v5500/mumps -run GTMLNX^HLCSGTM
+12460  RPCBroker stopped with exit code 0
+12536 Job begin Tue Dec 18 13:32:17 EST 2012
+12536  /opt/gtm/v5500/mumps -run GTMLNX^HLCSGTM
+12536  RPCBroker stopped with exit code 0
+12698 Job begin Tue Dec 18 13:39:24 EST 2012
+12698  /opt/gtm/v5500/mumps -run GTMLNX^HLCSGTM
+	 O NIO:(TCPCHAN,ADDRESS=IP):TO G:'$T NOOPN
+	        ^-----
+		At column 9, line 18, source module /home/jasonli/VistA-FOIA/latest/databases/routines/_ZISTCP.m
+%GTM-E-DEVPARUNK, Deviceparameter unknown
+	 U NIO::"TCP" W /SOCKET(IP,SOCK) I $KEY="" C NIO G NOOPN
+	       ^-----
+		At column 8, line 23, source module /home/jasonli/VistA-FOIA/latest/databases/routines/_ZISTCP.m
+%GTM-E-DEVPARUNK, Deviceparameter unknown
+	 I $$VERSION^%ZOSV'<5 S %A=$ZUTIL(68,55,1)
+	                            ^-----
+		At column 29, line 27, source module /home/jasonli/VistA-FOIA/latest/databases/routines/_ZISTCP.m
+%GTM-E-INVFCN, Invalid function name
+	 O NIO:(IP:SOCK:"-M"::512:512):TO G:'$T NOOPN ;Make work like DSM
+	        ^-----
+		At column 9, line 29, source module /home/jasonli/VistA-FOIA/latest/databases/routines/_ZISTCP.m
+%GTM-E-DEVPARUNK, Deviceparameter unknown
+	 I %ZISOS["DSM",%ZISV'<7 S NIO="SYS$NET" O NIO:(TCPDEV):5 D:$T VAR(NIO)
+	                                                ^-----
+		At column 49, line 63, source module /home/jasonli/VistA-FOIA/latest/databases/routines/_ZISTCP.m
+%GTM-E-DEVPARUNK, Deviceparameter unknown
+	 U NIO::"TCP" W /SOCKET("",SOCK)
+	       ^-----
+		At column 8, line 102, source module /home/jasonli/VistA-FOIA/latest/databases/routines/_ZISTCP.m
+%GTM-E-DEVPARUNK, Deviceparameter unknown
+	 O NIO:(:SOCK:"AT"::512:512:3):30 Q:'$T  S POP=0
+	        ^-----
+		At column 9, line 110, source module /home/jasonli/VistA-FOIA/latest/databases/routines/_ZISTCP.m
+%GTM-E-DEVPARUNK, Deviceparameter unknown
+	 U NIO:(::"-M") ;Work like DSM
+	        ^-----
+		At column 9, line 116, source module /home/jasonli/VistA-FOIA/latest/databases/routines/_ZISTCP.m
+%GTM-E-DEVPARUNK, Deviceparameter unknown
+	 S NIO=SOCK O NIO:(TCPCHAN):30 Q:'$T  S POP=0
+	                   ^-----
+		At column 20, line 121, source module /home/jasonli/VistA-FOIA/latest/databases/routines/_ZISTCP.m
+%GTM-E-DEVPARUNK, Deviceparameter unknown
+12698  RPCBroker stopped with exit code 0

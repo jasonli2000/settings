@@ -1,0 +1,95 @@
+22166 Job begin Sun Aug 26 08:09:20 EDT 2012
+22166  /mumps -run GTMLNX^XWBTCPM
+/home/jasonli/VistA-FOIA/120611/xinetd/cprs-vista-rpcbroker: 16: /home/jasonli/VistA-FOIA/120611/xinetd/cprs-vista-rpcbroker: /mumps: not found
+22166  RPCBroker stopped with exit code 127
+22175 Job begin Sun Aug 26 08:09:54 EDT 2012
+22175  /mumps -run GTMLNX^XWBTCPM
+/home/jasonli/VistA-FOIA/120611/xinetd/cprs-vista-rpcbroker: 16: /home/jasonli/VistA-FOIA/120611/xinetd/cprs-vista-rpcbroker: /mumps: not found
+22175  RPCBroker stopped with exit code 127
+22202 Job begin Sun Aug 26 08:11:15 EDT 2012
+22202  /opt/gtm/v5500//mumps -run GTMLNX^XWBTCPM
+%GTM-E-ZLINKFILE, Error while zlinking "XWBTCPM"
+%GTM-E-FILENOTFND, File XWBTCPM not found
+22202  RPCBroker stopped with exit code 253
+22261 Job begin Sun Aug 26 08:13:10 EDT 2012
+22261  /opt/gtm/v5500//mumps -run GTMLNX^XWBTCPM
+%GTM-E-ZROSYNTAX, $ZROUTINES syntax error: /home/jasonli/VistA-FOIA/120611/routines /opt/gtm/v5500/
+%GTM-E-FILEPARSE, Error parsing file specification: /home/jasonli/VistA-FOIA/120611/routines
+%SYSTEM-E-ENO2, No such file or directory
+22261  RPCBroker stopped with exit code 253
+22321 Job begin Sun Aug 26 08:14:33 EDT 2012
+22321  /opt/gtm/v5500//mumps -run GTMLNX^XWBTCPM
+22321  RPCBroker stopped with exit code 0
+22359 Job begin Sun Aug 26 08:14:57 EDT 2012
+22359  /opt/gtm/v5500//mumps -run GTMLNX^XWBTCPM
+22359  RPCBroker stopped with exit code 0
+22580 Job begin Sun Aug 26 08:21:07 EDT 2012
+22580  /opt/gtm/v5500//mumps -run GTMLNX^XWBTCPM
+22580  RPCBroker stopped with exit code 0
+23002 Job begin Sun Aug 26 08:54:59 EDT 2012
+23002  /opt/gtm/v5500//mumps -run GTMLNX^XWBTCPM
+23002  RPCBroker stopped with exit code 0
+23096 Job begin Sun Aug 26 08:59:17 EDT 2012
+23096  /opt/gtm/v5500//mumps -run GTMLNX^XWBTCPM
+	 S @%ZTERRT@("J")=$J_"^"_$ZC(%GETJPI,0,"PRCNAM")_"^"_$ZC(%GETJPI,0,"USERNAME")_"^"_%ZTER11I_"^"_$ZC(%SYSFAO,"!XL",$J),@%ZTERRT@("I")=$IO_"^"_$ZA_"^"_$ZB_"^"_$ZIO K %ZTER11I
+	                          ^-----
+		At column 27, line 4, source module /home/jasonli/VistA-FOIA/120611/databases/routines/_ZTER1.m
+%GTM-E-FNOTONSYS, Function or special variable is not supported by this operating system
+	 S @%ZTERRT@("J")=$J_"^"_$ZC(%GETJPI,0,"PRCNAM")_"^"_$ZC(%GETJPI,0,"USERNAME")_"^"_%ZTER11I_"^"_$ZC(%SYSFAO,"!XL",$J),@%ZTERRT@("I")=$IO_"^"_$ZA_"^"_$ZB_"^"_$ZIO K %ZTER11I
+	                                                      ^-----
+		At column 55, line 4, source module /home/jasonli/VistA-FOIA/120611/databases/routines/_ZTER1.m
+%GTM-E-FNOTONSYS, Function or special variable is not supported by this operating system
+	 S @%ZTERRT@("J")=$J_"^"_$ZC(%GETJPI,0,"PRCNAM")_"^"_$ZC(%GETJPI,0,"USERNAME")_"^"_%ZTER11I_"^"_$ZC(%SYSFAO,"!XL",$J),@%ZTERRT@("I")=$IO_"^"_$ZA_"^"_$ZB_"^"_$ZIO K %ZTER11I
+	                                                                                                 ^-----
+		At column 98, line 4, source module /home/jasonli/VistA-FOIA/120611/databases/routines/_ZTER1.m
+%GTM-E-FNOTONSYS, Function or special variable is not supported by this operating system
+	 S @%ZTERRT@("ZH")=$TR($ZH,",","^")
+	                        ^-----
+		At column 25, line 5, source module /home/jasonli/VistA-FOIA/120611/databases/routines/_ZTER1.m
+%GTM-E-INVSVN, Invalid special variable name
+	 S %ZTER111="%" F  D  S %ZTER111=$ZSORT(@%ZTER111) Q:%ZTER111=""  ;Code from DEC
+	                                  ^-----
+		At column 35, line 6, source module /home/jasonli/VistA-FOIA/120611/databases/routines/_ZTER1.m
+%GTM-E-INVFCN, Invalid function name
+23096  RPCBroker stopped with exit code 0
+23193 Job begin Sun Aug 26 09:12:43 EDT 2012
+23193  /opt/gtm/v5500//mumps -run GTMLNX^XWBTCPM
+23193  RPCBroker stopped with exit code 0
+9056 Job begin Tue Dec 18 12:39:37 EST 2012
+9056  /opt/gtm/v5500//mumps -run GTMLNX^XWBTCPM
+%GTM-E-REQRUNDOWN, Error accessing database /home/jasonli/VistA-FOIA/120611/databases/globals/VistA-FOIA.dat.  Must be rundown on cluster node MDWS.,%GTM-I-TEXT, Error with database control shmctl,%SYSTEM-E-ENO22, Invalid argument
+		At M source location OS+1^XWBTCPM
+%GTM-E-CMD, Command expected but not found
+	ÿûÿû ÿûÿû'ÿýÿûÿý
+	^-----
+9056  RPCBroker stopped with exit code 0
+9341 Job begin Tue Dec 18 12:42:25 EST 2012
+9341  /opt/gtm/v5500//mumps -run GTMLNX^XWBTCPM
+%GTM-E-REQRUNDOWN, Error accessing database /home/jasonli/VistA-FOIA/120611/databases/globals/VistA-FOIA.dat.  Must be rundown on cluster node MDWS.,%GTM-I-TEXT, Error with database control shmctl,%SYSTEM-E-ENO22, Invalid argument
+		At M source location OS+1^XWBTCPM
+%GTM-E-CMD, Command expected but not found
+	ÿûÿû ÿûÿû'ÿýÿûÿý
+	^-----
+%GTM-E-CMD, Command expected but not found
+	
+	^-----
+%GTM-E-SPOREOL, Either a space or an end-of-line was expected but not found
+	W
+	 ^-----
+9341  RPCBroker stopped with exit code 0
+10833 Job begin Tue Dec 18 12:52:34 EST 2012
+10833  /mumps -run GTMLNX^XWBTCPM
+/home/jasonli/VistA-FOIA/120611/xinetd/cprs-vista-rpcbroker: line 16: /mumps: No such file or directory
+10833  RPCBroker stopped with exit code 127
+10912 Job begin Tue Dec 18 12:54:32 EST 2012
+10912  /opt/gtm/v5500/mumps -run GTMLNX^XWBTCPM
+10912  RPCBroker stopped with exit code 0
+11784 Job begin Tue Dec 18 13:04:49 EST 2012
+11784  /opt/gtm/v5500/mumps -run GTMLNX^XWBTCPM
+11784  RPCBroker stopped with exit code 0
+11844 Job begin Tue Dec 18 13:05:13 EST 2012
+11844  /opt/gtm/v5500/mumps -run GTMLNX^XWBTCPM
+11844  RPCBroker stopped with exit code 0
+14498 Job begin Wed Dec 19 11:26:13 EST 2012
+14498  /opt/gtm/v5500/mumps -run GTMLNX^XWBTCPM
+14498  RPCBroker stopped with exit code 0
