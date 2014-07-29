@@ -6,5 +6,12 @@
 	token = cf154de587c69c37ec9c36ad9fdc80a3
 [core]
 	excludesfile = c:/Users/Jason.li.KHQ/.gitignore_global
+  packedGitLimit = 128m
+  packedGitWindowSize = 128m
 [pack]
-	windowMemory = 256m
+  deltaCacheSize = 128m
+	packSizeLimit = 128m
+	windowMemory = 128m
+	threads = 1
+[diff]
+	tool = ecmerge
