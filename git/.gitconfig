@@ -1,0 +1,10 @@
+[user]
+	name = Jason Li
+	email = jason.li@kitware.com
+[github]
+	user = jasonli2000
+	token = cf154de587c69c37ec9c36ad9fdc80a3
+[core]
+	excludesfile = c:/Users/Jason.li.KHQ/.gitignore_global
+[pack]
+	windowMemory = 256m
